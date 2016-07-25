@@ -1,0 +1,16 @@
+{
+  "name": "TySchultz.github.io",
+  "version": "1.1",
+  "homepage": "",
+  "authors": [
+    "@TySchultz"
+  ],
+  "description": "Personal website",
+  "license": "MIT",
+  "dependencies": {
+    "angular-route": "~1.4.3",
+    "angular": "~1.4.3",
+    "angular-sanitize": "~1.4.3",
+    "jquery": "~2.1.4"
+  }
+}

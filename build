@@ -1,0 +1,1 @@
+curl -L https://raw.githubusercontent.com/mattfxyz/build/master/build.sh | sh
