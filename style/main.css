@@ -51,10 +51,10 @@ body {
 .container {
   clear: both;
   width: 85%;
-  max-width: 700px;
+  max-width: 900px;
   margin: 0 auto;
   margin-top: 100px; }
-  @media (max-width: 550px) {
+  @media (max-width: 750px) {
     .container {
       margin-top: 15px; } }
 
