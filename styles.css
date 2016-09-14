@@ -233,21 +233,21 @@ blockquote {
     background-image: url(./Resources/AppIcons/mrwhite.png);  
 }
 #planit {
-    background-image: url(Resources/AppIcons/planit.png);  
+    background-image: url(./Resources/AppIcons/planit.png);  
 }
 #rpac {
     background-image: url(./Resources/AppIcons/rpac.png);  
 }
 
 #colorup {
-    background-image: url(/resources/appicons/colorup.png);  
+    background-image: url(./resources/appicons/colorup.png);  
 }
 #allez {
-    background-image: url(resources/appicons/allez.png);
+    background-image: url(./resources/appicons/allez.png);
 }
 
 #tiplog {
-    background-image: url(resources/appicons/tiplog.png);
+    background-image: url(./resources/appicons/tiplog.png);
 }
 
 #mrwhitefly {
