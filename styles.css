@@ -240,18 +240,18 @@ blockquote {
 }
 
 #colorup {
-    background-image: url(./resources/appicons/colorup.png);  
+    background-image: url(./Resources/AppIcons/colorup.png);  
 }
 #allez {
-    background-image: url(./resources/appicons/allez.png);
+    background-image: url(./Resources/AppIcons/allez.png);
 }
 
 #tiplog {
-    background-image: url(./resources/appicons/tiplog.png);
+    background-image: url(./Resources/AppIcons/tiplog.png);
 }
 
 #mrwhitefly {
-    background-image: url(resources/appicons/mrwhitefly.png);
+    background-image: url(./Resources/AppIcons/mrwhitefly.png);
 }
  #bestof2012 {
         display: block;
