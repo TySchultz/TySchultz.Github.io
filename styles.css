@@ -1,0 +1,426 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+::selection {
+    background: rgba(50, 100, 128, 0.2);
+    background: #FF0051;
+    color: white;
+}
+html {
+    background: white;
+    font-family: Source Sans Pro, HelveticaNeue, Helvetica, Arial, sans-serif;
+    font-size: 16pt;
+    line-height: 125%;
+}
+body {
+    -webkit-text-size-adjust: 100%;
+    font-size: 100%;
+    color: #444;
+    position: relative;
+}
+#page {
+    margin-top: 8%;
+    position: relative;
+}
+#header {
+    margin-left: 10%;
+    margin-right: 10%;
+    float: left;
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+    -webkit-user-select: none;
+    user-select: none;
+}
+#fullbleed {
+    width: 100%;
+    clear: both;
+}
+#content {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: block;
+    position: relative;
+    clear: both;
+    padding-bottom: 5%;
+}
+#nav {
+    display: block;
+    position: relative;
+    top: 1px;
+    left: -13px;
+    float: left;
+}
+#logo {
+    display: block;
+    float: left;
+    position: relative;
+    left: -2px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-size: 36pt;
+    line-height: 16pt;
+    text-decoration: none;
+    color: #444;
+    font-family: Source Sans Pro;
+    letter-spacing: 1px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+#logo:active {
+    background: transparent;
+}
+#nav a {
+    display: block;
+    float: left;
+    margin-top: 4px;
+    padding: 4px;
+    padding-left: 11px;
+    padding-right: 11px;
+    font-size: 14pt;
+    line-height: 16pt;
+    position: relative;
+    top: 1px;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: normal;
+    font-family: Source Sans Pro;
+    color: #444;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    border-radius: 50px;
+}
+#nav .selected {
+    background: #444;
+    color: white;
+}
+#nav a:active {
+    background: transparent;
+    color: #888;
+}
+#logo:active {
+    opacity: 0.5;
+}
+strong {
+    font-family: Source Sans Pro;
+    font-weight: normal;
+}
+h1 {
+    font-size: 0.75em;
+    font-family: Source Sans Pro;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #888;
+    margin-top: 0em;
+}
+h1:first-child {
+    margin-top: 0;
+}
+h1 {
+    margin-top: 15px;
+    margin-bottom: 7px;
+    border-bottom: 1px dotted #ddd;
+}
+p {
+    margin-bottom: 1em;
+    font-size: 0.75em;
+    -webkit-hyphens: auto;
+    -moz-hypens: auto;
+    hyphens: auto;
+}
+li {
+    font-size: 0.75em;
+    list-style-type: none;
+}
+a {
+    color: #FF0051;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    text-decoration: none;
+    background-color: #FF0051;
+    color: white;
+}
+code {
+    font-family: courier, monospace;
+    font-size: 12pt;
+    word-wrap: break-word;
+}
+pre code {
+    display: block;
+    margin-bottom: 1em;
+    padding-left: 1em;
+    border-left: 1px dotted #ddd;
+    color: #666;
+}
+blockquote {
+    padding-left: 20px;
+    border-left: 1px dotted #ddd;
+    color: #666;
+}
+.app .link {
+    display: block;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    left: -11px;
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.app .link:hover {
+    border-radius: 27px;
+}
+.app .link:active {
+    background: white;
+}
+.app .icon {
+    z-index: 4;
+    display: block;
+    width: 118px;
+    height: 118px;
+    float: left;
+    margin-right: 10px;
+    position: relative;
+    margin-top: 4px;
+    margin-left: 2px;
+    -webkit-transition: -webkit-transform 0.1s ease-in-out;
+    -webkit-backface-visibility: hidden;
+    background-size: contain;
+
+}
+.app .link:hover .icon {
+    -webkit-transform: rotate(5deg);
+}
+.app .link:active .icon {
+    -webkit-transform: scale(0.9) rotate(5deg);
+}
+.app .details {
+    font-size: 20pt;
+    overflow: hidden;
+    position: relative;
+    top: 5px;
+}
+.app p {
+    margin: 0;
+    padding: 0;
+    font-size: 12pt;
+    color: #444;
+}
+.app p.title {
+    font-family: Source Sans Pro;
+    font-size: 14pt;
+    letter-spacing: 1pt;
+    margin-top: 13px;
+    margin-bottom: 3px;
+}
+.app p.description {
+    color: #888;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+.app:active p {
+    // color:white;}
+#letterpressicon {
+    background-image: url(resources/appicons/icon-with-shadow.png);
+}
+
+#mrwhite {
+    background-image: url(resources/appicons/mrwhite.png);  
+}
+#planit {
+    background-image: url(resources/appicons/planit.png);  
+}
+#rpac {
+    background-image: url(resources/appicons/rpac.png);  
+}
+
+#colorup {
+    background-image: url(resources/appicons/colorup.png);  
+}
+#allez {
+    background-image: url(resources/appicons/allez.png);
+}
+
+#tiplog {
+    background-image: url(resources/appicons/tiplog.png);
+}
+
+#mrwhitefly {
+    background-image: url(resources/appicons/mrwhitefly.png);
+}
+ #bestof2012 {
+        display: block;
+        margin: 0 auto;
+        width: 74px;
+        height: 74px;
+        background: url(BestOf2012.png) center center no-repeat;
+        background-size: 74px 74px;
+    }
+    .splash {
+        display: block;
+        height: 250px;
+        width: 100%;
+        margin-bottom: 16px;
+        border-radius: 8px;
+        background: #eee;
+        -webkit-user-select: none;
+        user-select: none;
+    }
+    .splash_letterpress {
+        height: 250px;
+        background: url(resources/appheaders/testheader.png) center center no-repeat;
+        background-size: 800px 250px;
+    }
+    .appstorelinkcontainer {
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 44px;
+        margin-bottom: 10px;
+    }
+    .appstorelinkwrap {
+        position: relative;
+        display: block;
+        width: 135px;
+        height: 40px;
+        margin: 0 auto;
+    }
+    .appstorelinkcontainer a {
+        text-indent: -9999px;
+        display: block;
+        position: absolute;
+        height: 40px;
+        -webkit-user-select: none;
+        user-select: none;
+    }
+    .appstorelinkcontainer a:hover {
+        opacity: 0.8;
+    }
+    .appstorelinkcontainer a:active {
+        opacity: 0.5;
+        background-color: transparent;
+    }
+    .appstore,
+    .appstore:active {
+        width: 135px;
+        background-size: cover;
+        background-image: url(/i/appstore.svg);
+    }
+    .macappstore,
+    .macappstore:active {
+        left: 141px;
+        width: 146px;
+        background-size: cover;
+        background-image: url(/i/macappstore.png);
+    }
+    @media screen and (max-width: 800px) {
+        #fullbleed {
+            height: 250px;
+            background: url(splash.jpg) center center no-repeat;
+            background-size: 800px 250px;
+        }
+        .splash_letterpress {
+            height: 0px;
+        }
+    }
+
+@media screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (-o-min-device-pixel-ratio: 3/2),
+screen and (-moz-device-pixel-ratio: 1.5),
+screen and (min-device-pixel-ratio: 1.5) {
+    html {
+        background-size: 64px 64px;
+    }
+    #letterpressicon {
+        background-image: url(letterpress/icon-with-shadow@2x.png);
+        background-size: 118px 118px;
+    }
+}
+@media screen and (min-width: 900px) {
+    #header {
+        width: 171px;
+    }
+    #fullbleed {
+        visibility: hidden;
+    }
+    #content {
+        position: absolute;
+        top: -4px;
+        left: 195px;
+        right: 0px;
+        max-width: 800px;
+    }
+    #logo {
+        float: none;
+        margin-bottom: 35px;
+    }
+    #nav {
+        position: relative;
+        left: 37px;
+    }
+    #nav a {
+        display: block;
+        float: right;
+        clear: both;
+        margin-bottom: 7px;
+    }
+}
+@media screen and (max-width: 500px) {
+    #page {
+        margin-top: 5%;
+    }
+    #header {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 20px;
+        position: relative;
+        left: 2px;
+    }
+    #content {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #logo {
+        position: relative;
+        margin-bottom: 15px;
+        left: -2px;
+        bottom: -2px;
+        font-size: 18pt;
+        margin-bottom: 5px;
+    }
+    #nav {
+        clear: both;
+        left: -10px;
+    }
+    #nav a {
+        font-size: 11pt;
+        padding: 2px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+}
+
+    @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro';
+
+@font-face {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('/i/fonts/Source Sans Pro.eot');
+    src: url('/i/fonts/Source Sans Pro.eot?#iefix') format('embedded-opentype'), url('/i/fonts/Source Sans Pro.woff') format('woff'), url('/i/fonts/Source Sans Pro.ttf') format('truetype'), url('/i/fonts/Source Sans Pro.svg#MuseoSansRounded300') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'msr5ttt00';
+    src: url('/i/fonts/Source Sans Pro.eot');
+    src: url('/i/fonts/Source Sans Pro.eot?#iefix') format('embedded-opentype'), url('/i/fonts/Source Sans Pro.woff') format('woff'), url('/i/fonts/Source Sans Pro.ttf') format('truetype'), url('/i/fonts/Source Sans Pro.svg#MuseoSansRounded500') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
