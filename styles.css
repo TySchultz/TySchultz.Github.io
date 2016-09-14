@@ -226,17 +226,17 @@ blockquote {
 .app:active p {
     // color:white;}
 #letterpressicon {
-    background-image: url(resources/appicons/icon-with-shadow.png);
+    background-image: url(./Resources/AppIcons/icon-with-shadow.png);
 }
 
 #mrwhite {
-    background-image: url(resources/appicons/mrwhite.png);  
+    background-image: url(./Resources/AppIcons/mrwhite.png);  
 }
 #planit {
-    background-image: url(resources/appicons/planit.png);  
+    background-image: url(./Resources/AppIcons/planit.png);  
 }
 #rpac {
-    background-image: url(resources/appicons/rpac.png);  
+    background-image: url(./Resources/AppIcons/rpac.png);  
 }
 
 #colorup {
