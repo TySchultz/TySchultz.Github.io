@@ -226,33 +226,66 @@ blockquote {
 .app:active p {
     // color:white;}
 #letterpressicon {
-    background-image: url(./Resources/AppIcons/icon-with-shadow.png);
+    background-image: url(resources/appicons/icon-with-shadow.png);
 }
 
 #mrwhite {
-    background-image: url(./Resources/AppIcons/mrwhite.png);  
+    background-image: url(../resources/appicons/mrwhite.png);  
 }
 #planit {
-    background-image: url(./Resources/AppIcons/planit.png);  
+    background-image: url(../resources/appicons/planit.png);  
 }
 #rpac {
-    background-image: url(./Resources/AppIcons/rpac.png);  
+    background-image: url(../resources/appicons/rpac.png);  
 }
 
 #colorup {
-    background-image: url(./Resources/AppIcons/colorup.png);  
+    background-image: url(../resources/appicons/colorup.png);  
 }
 #allez {
-    background-image: url(./Resources/AppIcons/allez.png);
+    background-image: url(../resources/appicons/allez.png);
 }
 
 #tiplog {
-    background-image: url(./Resources/AppIcons/tiplog.png);
+    background-image: url(../resources/appicons/tiplog.png);
 }
 
 #mrwhitefly {
-    background-image: url(./Resources/AppIcons/mrwhitefly.png);
+    background-image: url(../resources/appicons/mrwhitefly.png);
 }
+
+
+#rpacHeader {
+    height: 250px;
+    background: url(../resources/appheaders/rpacHeader.png) center center no-repeat;
+    background-size: 800px 250px;
+}
+#planitHeader {
+    height: 250px;
+    background: url(../resources/appheaders/planitHeader.png) center center no-repeat;
+    background-size: 800px 250px;
+}
+#mrwhiteHeader {
+    height: 250px;
+    background: url(../resources/appheaders/mrwhiteHeader.png) center center no-repeat;
+    background-size: 800px 250px;
+}
+#mrwhiteflyHeader {
+    height: 250px;
+    background: url(../resources/appheaders/mrwhiteflyHeader.png) center center no-repeat;
+    background-size: 800px 250px;
+}
+#colorupHeader {
+    height: 250px;
+    background: url(../resources/appheaders/colorupHeader.png) center center no-repeat;
+    background-size: 800px 250px;
+}
+#tiplogHeader {
+    height: 250px;
+    background: url(../resources/appheaders/tiplogHeader.png) center center no-repeat;
+    background-size: 800px 250px;
+}
+
  #bestof2012 {
         display: block;
         margin: 0 auto;
@@ -273,7 +306,7 @@ blockquote {
     }
     .splash_letterpress {
         height: 250px;
-        background: url(resources/appheaders/testheader.png) center center no-repeat;
+        background: url(../resources/appheaders/mrwhiteheader.png) center center no-repeat;
         background-size: 800px 250px;
     }
     .appstorelinkcontainer {
