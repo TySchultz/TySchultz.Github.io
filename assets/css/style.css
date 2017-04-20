@@ -102,12 +102,12 @@ p {
 
 ::-moz-selection {
     color: #FFFFFF;
-    background: #0EA3DD;
+    background: #3333CC;
 }
 
 ::selection {
     color: #FFFFFF;
-    background: #0EA3DD;
+    background: #3333CC;
 }
 
 .nopadding {
@@ -427,7 +427,7 @@ background-color: #13A0DD
 .hero-content p {
 	font-family: Poppins;
 	font-size: 14px;
-	color: #000000;
+	color: #A1A1A1;
 	font-weight: 400;
 	line-height: 1.5;
 	margin: 0 0 25px 0;
@@ -493,8 +493,8 @@ background-color: #13A0DD
 
 .software .btn-action {
 font-family: Arial;
- background-color: #0EA3DD;
- border: 1px solid #0EA3DD;
+ background-color: #3f51b5;
+ border: 1px solid #3f51b5;
  border-radius: 50px;
  color: #FFFFFF;
  font-size: 13px;
@@ -555,7 +555,7 @@ font-family: Arial;
 .form .hero-content p {
 	font-family: Poppins;
 	font-size: 14px;
-	color: #000000;
+	color: #A1A1A1;
 	font-weight: 400;
 	line-height: 1.5;
 	margin: 0 0 25px 0;
@@ -575,7 +575,7 @@ font-family: Arial;
   margin: 0;
   padding: 0 25px 0 25px;
 	border-color: #FFFFFF;
-  background-color: #0EA3DD;
+  background-color: #3333CC;
   color: #FFFFFF;
 	box-shadow: 0 0 1px transparent;
   outline: none;
@@ -585,22 +585,22 @@ font-family: Arial;
 }
 
 .form .subscribe-form .submit-button:hover {
-  border-color: #0EA3DD;
+  border-color: #3333CC;
   -webkit-transition: 500ms;
 	-moz-transition: 500ms;
   transition: 500ms;
 }
 
 .form .btn-action {
-	background: #0EA3DD;
-	border-color: #0EA3DD;
+	background: #3333CC;
+	border-color: #3333CC;
 	color: #FFFFFF;
 }
 
 .form .btn-action:hover {
 	background: transparent;
-	border-color: #0EA3DD;
-	color: #0EA3DD;
+	border-color: #3333CC;
+	color: #3333CC;
 }
 
 
@@ -611,7 +611,7 @@ font-family: Arial;
 
 .image-bg .hero-section {
 
-	background: linear-gradient(to right, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(../images/rubber.png) no-repeat center center;
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(../images/back1.jpg) no-repeat center center;
 	background-size: cover;
 	padding: 150px 0 200px 0;
 }
@@ -653,7 +653,7 @@ font-family: Arial;
 
 .signup-form {
 	padding: 25px 25px 30px 25px;
-	background: #0EA3DD;
+	background: #3333CC;
 	-moz-border-radius: 0 0 4px 4px; -webkit-border-radius: 0 0 4px 4px; border-radius: 0 0 4px 4px;
 	text-align: left;
 }
@@ -690,33 +690,33 @@ font-family: Arial;
 
 
 .signup .btn-action.btn-round {
-	background: #0EA3DD;
-	border-color: #0EA3DD;
+	background: #3333CC;
+	border-color: #3333CC;
 	color: #FFFFFF;
 	font-size: 15px;
 	padding: 12px 24px;
 	font-weight: 600;
 	text-transform: capitalize;
-	border: 2px solid #0EA3DD;
+	border: 2px solid #3333CC;
 	border-radius: 30px;
 }
 
 .signup .btn-action.btn-round:hover, .signup .btn-action.btn-round:focus {
 	background: transparent;
-	color: #0EA3DD;
-	border-color: #0EA3DD;
+	color: #3333CC;
+	border-color: #3333CC;
 }
 
 .signup .btn-action {
-	background: #0EA3DD;
-	border-color: #0EA3DD;
+	background: #3333CC;
+	border-color: #3333CC;
 	color: #FFFFFF;
 }
 
 .signup .btn-action:hover {
 	background: transparent;
-	border-color: #0EA3DD;
-	color: #0EA3DD;
+	border-color: #3333CC;
+	color: #3333CC;
 }
 
 
@@ -932,14 +932,14 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .app .btn-action {
 	color: #FFFFFF;
-	background: #0EA3DD;
-	border-color: #0EA3DD;
+	background: #3333CC;
+	border-color: #3333CC;
 }
 
 .app .btn-action:hover {
-	color: #0EA3DD;
+	color: #3333CC;
 	background: transparent;
-	border-color: #0EA3DD;
+	border-color: #3333CC;
 }
 
 
@@ -1099,7 +1099,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	font-family: 'Poppins';
 	font-size: 14px;
 	line-height: 1.5;
-	color: #000000;
+	color: #A1A1A1;
 	letter-spacing: 0;
 }
 
@@ -1130,7 +1130,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	font-weight: 600;
 	line-height: 1.2;
 	letter-spacing: 0;
-	color: #808080;
+	color: #454545;
 	margin: 0 0 10px 0;
 }
 
@@ -1138,7 +1138,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	font-family: 'Poppins';
 	font-size: 14px;
 	line-height: 1.5;
-	color: #000000;
+	color: #A1A1A1;
 	letter-spacing: 0;
 }
 
@@ -1308,14 +1308,14 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .feature-sub .sub-inner .btn-action {
 	color: #FFFFFF;
-	background: #0EA3DD;
-	border-color: #0EA3DD;
+	background: #3333CC;
+	border-color: #3333CC;
 }
 
 .feature-sub .sub-inner .btn-action:hover {
-	color: #0EA3DD;
+	color: #3333CC;
 	background: transparent;
-	border-color: #0EA3DD;
+	border-color: #3333CC;
 }
 
 .product .feature-sub .sub-inner .btn-action {
@@ -1583,6 +1583,43 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	margin: 0 0 20px 0;
 }
 
+/* ----- Demos ----- */ 
+
+.img-demo {
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+.img-demo img {
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.img-demo:hover img {
+  -webkit-transform: scale(1.02);
+	-moz-transform: scale(1.02);
+	-ms-transform: scale(1.02);
+	transform: scale(1.02);
+}
+
+.img-full img {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.aria {
+  background: #FFFFFF;
+}
+
+.aria .img-demo:hover img {
+  box-shadow: 0 1px 50px #999;
+}
+
+.advent .img-demo img {
+  box-shadow: 0 1px 50px #999;
+}
+
 
 
 /* ----- Pricing Tables Styling Starts ----- */
@@ -1718,7 +1755,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .counter-icon i {
   font-size: 48px;
-  color: #0EA3DD;
+  color: #3333CC;
 }
 
 .counter-text {
@@ -1853,14 +1890,14 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .contact i {
 	font-size: 42px;
-	color: #0EA3DD;
+	color: #3333CC;
 }
 
 .contact h1 {
 	font-family: 'Josefin Sans';
 	font-size: 21px;
 	font-weight: 400;
-	color: #0EA3DD;
+	color: #3333CC;
 	margin: 10px 0 10px 0;
 }
 
@@ -1877,7 +1914,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 	font-family: 'Josefin Sans';
 	font-size: 18px;
 	font-weight: 400;
-	color: #0EA3DD;
+	color: #3333CC;
 	text-decoration: none;
 	display: inline-block;
 }
@@ -1917,7 +1954,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 .footer-text p {
 	font-family: 'Josefin Sans';
 	font-size: 14px;
-	color: #0EA3DD;
+	color: #3333CC;
 	font-weight: 400;
 	line-height: 1.4;
 	letter-spacing: 1px;
