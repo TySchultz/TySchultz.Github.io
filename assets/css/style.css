@@ -241,18 +241,18 @@ p {
 }
 
 .navbar-default .navbar-nav > .active > a {
-  background: transparent;
+  background: #FFFFFF;
   color: #222222;
   }
 
 
 .navbar-default .navbar-nav > .active > a:hover {
-    background: transparent;
+    background: #FFFFFF;
     color: #333333;
 }
 
 .navbar-default .navbar-nav > .active > a:focus {
-	background: transparent;
+	background: #FFFFFF;
   color: #111111;
 }
 
@@ -1097,7 +1097,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .pitch-intro p {
 	font-family: 'Poppins';
-	font-size: 14px;
+	font-size: 15px;
 	line-height: 1.5;
 	color: #000000;
 	letter-spacing: 0;
@@ -1136,7 +1136,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .pitch-content p {
 	font-family: 'Poppins';
-	font-size: 14px;
+	font-size: 15px;
 	line-height: 1.5;
 	color: #000000;
 	letter-spacing: 0;
@@ -1407,21 +1407,21 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .app-features .feature-single {
 	margin-left: 0;
-	margin-bottom: 50px;
+	margin-bottom: 115px;
 }
 
 
 .app-features .feature-single h1 {
 	font-size: 18px;
-	font-weight: 400;
-	color: #0EA3DD;
+	font-weight: 600;
+	color: #000000;
 	margin: 0 0 10px 0;
 	letter-spacing: 1px;
 }
 
 .app-features .feature-single p {
 	font-family: Poppins;
-	font-size: 14px;
+	font-size: 15px;
 	color: #000000;
 	line-height: 1.4;
 	margin: 10px 0 0 0;
