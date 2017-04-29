@@ -1098,7 +1098,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 }
 
 .pitch-intro h1 {
-	font-size: 34px;
+	font-size: 24px;
 	font-weight: 600;
 	line-height: 1.2;
 	letter-spacing: -1px;
@@ -1381,12 +1381,12 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .app-features {
 	background: #FFFFFF;
-	padding: 100px 0 0px 0;
+	padding: 40px 0 0px 0;
 	overflow-x: hidden;
 }
 
 .app-features h1 {
-	font-size: 34px;
+	font-size: 24px;
 	font-weight: 600;
 	margin: 0 0 10px 0;
 }
