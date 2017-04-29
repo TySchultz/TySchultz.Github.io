@@ -764,6 +764,7 @@ background-color: #13A0DD
 .img-demo {
   margin-bottom: 1em;
   margin-top: 1em;
+  
 }
 
 .img-demo img {
@@ -786,7 +787,7 @@ background-color: #13A0DD
 
 .aria {
   background: #FFFFFF;
-  	padding: 40px 0 0px 0;
+  	padding: 40px 0 10px 0;
 
 }
 
