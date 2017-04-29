@@ -22,7 +22,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display
     margin: 120px auto 0;
    	padding: 0 100px;
    	background: #fff;
-   	font-family: "PT Serif", "georgia", serif;
+   	font-family: "Lato", "georgia", serif;
    	color: #4B4C4D;
    	text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -93,6 +93,232 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display
     }
    }
 
+
+
+
+/* ------ Navbar Styling Starts ----- */
+
+
+.navbar {
+	font-size: 14px;
+  font-family: Lato;
+	font-weight: 100;
+	text-transform: capitalize;
+	padding-top: 25px;
+	letter-spacing: 1px;
+	height: 80px;
+	-webkit-transition: all 0.6s;
+	-moz-transition: all 0.6s;
+	-o-transition: all 0.6s;
+	transition: all 0.6s;
+	-webkit-backface-visibility: hidden;
+}
+
+.navbar-default {
+  transition: all 0.6s ease;
+	border-color: transparent;
+  background-color: #FFFFFF;
+}
+
+.navbar-default .navbar-toggle {
+  border-radius: 0px;
+  border-color: transparent;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background-color: transparent;
+}
+
+.navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #111111;
+}
+
+.navbar-default .navbar-brand .navbar-toggle .collapsed {
+    padding: 4px 6px;
+    font-size: 14px;
+    color: #111111;
+  }
+
+.navbar-default .navbar-brand {
+	padding-top: 5px;
+	color: #111111;
+	-webkit-transition: 300ms;
+	-moz-transition: 300ms;
+	-o-transition: 300ms;
+	transition: 300ms;
+}
+
+.navbar-default .navbar-brand:hover {
+  transition: 1s;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #111111;
+  -webkit-transition: all 0.5s;
+	-moz-transition: all 0.5;
+  transition: all 0.5s;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #000000;
+}
+
+.navbar-default .navbar-nav > .active > a {
+  background: #FFFFFF;
+  color: #222222;
+  }
+
+
+.navbar-default .navbar-nav > .active > a:hover {
+    background: #FFFFFF;
+    color: #333333;
+}
+
+.navbar-default .navbar-nav > .active > a:focus {
+	background: #FFFFFF;
+  color: #111111;
+}
+
+.navbar-default .navbar-collapse {
+	border-color: transparent;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav .open .dropdown-toggle {
+  color: #111111;
+}
+
+.navbar-default .nav-white > li > a {
+	font-weight: 300;
+	color: #000000;
+}
+
+.navbar-default .nav-white > li > a:hover {
+	color: #FFFFFF;
+background-color: #13A0DD
+}
+
+.navbar-default .navbar-brand.nav-white {
+	padding-top: 14px;
+	color: #FFFFFF;
+	font-size: 21px;
+	letter-spacing: 1px;
+	-webkit-transition: 300ms;
+	-moz-transition: 300ms;
+	-o-transition: 300ms;
+	transition: 300ms;
+}
+
+/*---------- Media Queries ---------*/
+
+@media only screen and (max-width: 767px) {
+
+	.navbar {
+		padding-top: 5px;
+		height: 60px;
+	}
+
+  .navbar-default {
+    border: 0px;
+    background-color: transparent;
+  }
+
+	.navbar-default .navbar-collapse {
+		text-align: center;
+		border-color: transparent;
+	  background-color: #FFFFFF;
+	}
+
+  .navbar-default .navbar-collapse {
+    border: 0;
+    border-color: transparent;
+  }
+
+  .navbar-default .navbar-nav > li> a {
+    color: #222222;
+		margin-top: 10px;
+  }
+
+	.navbar-default .navbar-nav > li> a:hover {
+		color: #222222;
+	}
+
+  .navbar-default .navbar-brand {
+    color: #FFFFFF;
+		padding: 16px 14px !important;
+  }
+
+	.navbar-default .navbar-brand.nav-white {
+		color: #FFFFFF;
+	}
+
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #111111;
+  }
+}
+
+@media only screen and (min-width: 240px) {
+
+
+.navbar.past-main {
+	font-size: 14px;
+	padding-top: 5px;
+	height: 60px;
+	background-color: rgba(255, 255, 255, 0.99);
+	-webkit-transition: all 0.6s;
+	-moz-transition: all 0.6s;
+	-o-transition: all 0.6s;
+	transition: all 0.6s;
+}
+
+.navbar-default.past-main .navbar-brand {
+	color: #111111;
+}
+
+.navbar-default.past-main .navbar-toggle .icon-bar {
+	background-color: #111111;
+}
+
+.navbar-default.past-main .navbar-nav > li > a {
+  color: #222222;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+.navbar-default.past-main .navbar-nav > li > a:hover {  
+  color: #111111;
+}
+
+.navbar-default.past-main .navbar-nav > .active > a {
+  background: transparent;
+  color: #5924EC;
+  }
+
+
+.navbar-default.past-main .navbar-nav > .active > a:hover {
+    background: transparent;
+    color: #222222;
+}
+
+.navbar-default.past-main .navbar-nav > .active > a:focus {
+	background: transparent;
+  color: #222222;
+}
+
+}
+
+.navbar-default .nav-white .navbar-toggle .icon-bar {
+	background-color: #FFFFFF;
+}
+
+.navbar-default.past-main .nav-white .navbar-toggle .icon-bar {
+	background-color: #111111;
+}
+
 /* ===================================
    typography and stuff...
    =================================== */
@@ -112,7 +338,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display
    	line-height: 18px;
    	font-style: normal;
    	font-weight: 400;
-   	color: #F25B44;
+   	color: #0EA3DD;
    	margin: 0 0 6px;
    }
 
@@ -122,7 +348,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display
    }
 
    li {
-   	font-size: 16px;
+   	font-size: 14px;
    	line-height: 25px;
    	margin: 0;
    }
@@ -162,11 +388,11 @@ article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display
    }
 
    a:hover {
-   	color: #F25B44;
+   	color: #0EA3DD;
    }
 
    p > a:hover {
-   	color: #F25B44;
+   	color: #0EA3DD;
    }
 
    a:active,
