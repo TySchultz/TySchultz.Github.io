@@ -857,8 +857,17 @@ background-color: #13A0DD
 .contact  p {
 	font-size: 14px;
 	text-align: left;
-	font-weight: 300;
+	font-weight: 400;
 	padding-top: 20px;
+}
+.contact a  {
+  color: #454545;
+text-decoration: none;
+
+}
+
+.contact a :hover {
+  color: #0EA3DD;
 }
 
 
