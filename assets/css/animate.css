@@ -15,12 +15,19 @@
   animation-fill-mode: both;
 }
 
-.animated.infinite {
+.animated2 {
+  -webkit-animation-duration: 1.1s;
+  animation-duration: 1.1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.animated.infinite, animated2.infinite{
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
 
-.animated.hinge {
+.animated.hinge, .animated2.hinge {
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
 }
@@ -28,7 +35,11 @@
 .animated.flipOutX,
 .animated.flipOutY,
 .animated.bounceIn,
-.animated.bounceOut {
+.animated.bounceOut,
+.animated2.flipOutX,
+.animated2.flipOutY,
+.animated2.bounceIn,
+.animated2.bounceOut  {
   -webkit-animation-duration: .75s;
   animation-duration: .75s;
 }

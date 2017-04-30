@@ -352,6 +352,7 @@ header {
 #face {
   position: fixed;
   bottom: 0;
+  margin-bottom: -20px;
   right: 0;
   z-index: 1;
 }
@@ -377,7 +378,7 @@ header {
 
 @media screen and (max-width: 800px) {
   #face {
-    width: auto;
+    width: 70%;
   }
 }
 
@@ -705,11 +706,12 @@ a:focus {}
     position: static;
     margin-top: 80px;
   }
-  #face {
+  /*#face {
     position: static;
     text-align: center;
     width: auto;
     top: auto;
     bottom: auto;
-  }
+    
+  }*/
 }
