@@ -93,11 +93,11 @@ html * {
 }
 */
 h1, h2, h3, h4, h5, h6 {
-  font-family: Lato;
+  font-family: futura-pt, Futura, 'Trebuchet MS', Arial, sans-serif;
 }
 
 p {
-	font-family: Lato;
+  font-family: futura-pt, Futura, 'Trebuchet MS', Arial, sans-serif;
 }
 
 ::-moz-selection {
@@ -127,13 +127,14 @@ p {
 
 .error-message {
 	color: #FF3333;
-	font-family: Lato;
+  font-family: futura-pt, Futura, 'Trebuchet MS', Arial, sans-serif;
+
 	margin-top: 5px;
 }
 
 .success-message {
 	color:#009900;
-	font-family: Lato;
+  font-family: futura-pt, Futura, 'Trebuchet MS', Arial, sans-serif;
 	margin-top: 5px;
 }
 
@@ -156,7 +157,7 @@ p {
    left: 0px;
    position: fixed;
    opacity: 1;
-   background-color: #F2F2F2;
+   background-color: #FBFEFE;
    z-index: 9999;
    text-align: center;
 }
@@ -185,8 +186,8 @@ p {
 
 
 .navbar {
-	font-size: 14px;
-  font-family: Lato;
+	font-size: 12px;
+  	font-family: futura-pt, Futura, 'Trebuchet MS', Arial, sans-serif;
 	font-weight: 100;
 	text-transform: capitalize;
 	padding-top: 25px;
@@ -202,7 +203,7 @@ p {
 .navbar-default {
   transition: all 0.6s ease;
 	border-color: transparent;
-  background-color: #FFFFFF;
+  background-color: #FBFEFE;
 }
 
 .navbar-default .navbar-toggle {
@@ -315,7 +316,7 @@ background-color: #13A0DD
 	.navbar-default .navbar-collapse {
 		text-align: center;
 		border-color: transparent;
-	  background-color: #FFFFFF;
+	  background-color: #FBFEFE;
 	}
 
   .navbar-default .navbar-collapse {
@@ -397,7 +398,7 @@ background-color: #13A0DD
 }
 
 .navbar-default .nav-white .navbar-toggle .icon-bar {
-	background-color: #FFFFFF;
+	background-color: #FBFEFE;
 }
 
 .navbar-default.past-main .nav-white .navbar-toggle .icon-bar {
@@ -437,7 +438,7 @@ background-color: #13A0DD
 }
 
 .hero-content p {
-	font-family: Lato;
+  font-family: futura-pt, Futura, 'Trebuchet MS', Arial, sans-serif;
 	font-size: 14px;
 	color: #000000;
 	font-weight: 400;
@@ -447,7 +448,7 @@ background-color: #13A0DD
 
 
 .btn-action {
- font-family: Roboto;
+  font-family: futura-pt, Futura, 'Trebuchet MS', Arial, sans-serif;
  background-color: #13A0DD;
  border: 1px solid #13A0DD;
  border-radius: 0;
@@ -497,7 +498,7 @@ background-color: #13A0DD
 
 .image-bg .hero-section {
 
-	background: linear-gradient(to right, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(../images/back2.jpg) no-repeat center center;
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url(../images/back4.jpg) no-repeat center center;
 	background-size: cover;
 	padding: 140px 0 200px 0;
 }
@@ -543,7 +544,7 @@ background-color: #13A0DD
 
 
 .pitch-intro p {
-	font-family: 'Lato';
+  font-family: futura-pt, Futura, 'Trebuchet MS', Arial, sans-serif;
 	font-size: 18px;
 	font-weight:300;
 	line-height: 1.5;
@@ -583,7 +584,7 @@ background-color: #13A0DD
 }
 
 .pitch-content p {
-	font-family: 'Lato';
+  font-family: futura-pt, Futura, 'Trebuchet MS', Arial, sans-serif;
 	font-size: 18px;
 	line-height: 1.5;
 	font-weight:300;
@@ -630,7 +631,7 @@ background-color: #13A0DD
 .features .features-list ul li {
 	display: block;
 	margin: 0 0 14px 0;
-	font-family: 'Josefin Sans';
+  font-family: futura-pt, Futura, 'Trebuchet MS', Arial, sans-serif;
 	font-size: 16px;
 	line-height: 1.2;
 	color: #000000;
@@ -698,7 +699,7 @@ background-color: #13A0DD
 }
 
 .app-features .feature-single p {
-	font-family: Lato;
+  font-family: futura-pt, Futura, 'Trebuchet MS', Arial, sans-serif;
 	font-size: 14px;
 	color: #000000;
 	line-height: 1.4;
@@ -737,7 +738,7 @@ background-color: #13A0DD
 }
 
 .pricing p {
-	font-family: 'Lato';
+  font-family: futura-pt, Futura, 'Trebuchet MS', Arial, sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	color: #444444;
@@ -753,7 +754,7 @@ background-color: #13A0DD
 }
 
 .pricing .price-tag h2 {
-	font-family: 'Josefin Sans';
+  font-family: futura-pt, Futura, 'Trebuchet MS', Arial, sans-serif;
 	font-size: 24px;
 	font-weight: 400;
 	color: #000000;
@@ -839,6 +840,7 @@ background-color: #13A0DD
 .contact {
   margin-bottom: 1em;
   margin-top: 1em;
+  text-align: center;
 }
 
 .contact {
@@ -855,20 +857,28 @@ background-color: #13A0DD
 	text-align: left;
 	color: #454545;
 	margin: 0 0 10px 0;
+	  text-align: center;
+
 }
 
 .contact h2 {
 	color:#0EA3DD;
 	font-size: 20px;
 	font-weight: 400;
-	padding-top: 20px;
+	padding-bottom: 40px;
+		padding-top: 40px;
+
+	  text-align: center;
+
 }
 
 .contact  p {
 	font-size: 14px;
 	text-align: left;
 	font-weight: 400;
-	padding-top: 20px;
+	padding-bottom: 20px;
+	  text-align: center;
+
 }
 .contact a  {
   color: #454545;
@@ -904,7 +914,7 @@ text-decoration: none;
 }
 
 .left h2 {
-  font-family: "adelle-sans", sans-serif;
+  font-family: futura-pt, Futura, 'Trebuchet MS', Arial, sans-serif;
   font-size: 14px;
   line-height: 18px;
   font-style: normal;
@@ -924,7 +934,7 @@ text-decoration: none;
 }
 
 .left p {
-  font-family: "adelle-sans", sans-serif;
+  font-family: futura-pt, Futura, 'Trebuchet MS', Arial, sans-serif;
   font-size: 14px;
   line-height: 18px;
   font-style: normal;
@@ -941,7 +951,7 @@ text-decoration: none;
 	height: 100%;
 	padding-top: 100px;
 	padding-bottom: 100px;
-	background: #FFFFFF;
+	background: #FBFEFE;
 }
 
 .pricing-intro {
@@ -970,7 +980,7 @@ text-decoration: none;
 	padding: 20px 20px 50px 20px;
 	margin: 0 auto;
 	margin-bottom: 30px;
-	background-color: #FFFFFF;
+	background-color: ;
 	box-shadow: 0px 0px 80px 0px rgba(0,0,0,.1);
 	border: transparent;
 	max-width: 400px;
@@ -988,7 +998,7 @@ text-decoration: none;
 
 .table-left .pricing-details span, .table-right .pricing-details span {
 	display: inline-block;
-	font-family: Lato;
+  font-family: futura-pt, Futura, 'Trebuchet MS', Arial, sans-serif;
 	font-size: 28px;
 	font-weight: 400;
 	color: #808080;
@@ -1003,7 +1013,7 @@ text-decoration: none;
 }
 
 .table-left .pricing-details p, .table-right .pricing-details p {
-	font-family: Lato;
+  font-family: futura-pt, Futura, 'Trebuchet MS', Arial, sans-serif;
 	font-size: 14px;
 	font-weight: 300;
 	color: #505050;
@@ -1018,7 +1028,7 @@ text-decoration: none;
 
 
 .table-left .pricing-details li, .table-right .pricing-details li {
-	font-family: Lato;
+  font-family: futura-pt, Futura, 'Trebuchet MS', Arial, sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	color: #505050;
@@ -1043,6 +1053,40 @@ text-decoration: none;
 }
 
 /* ----- Pricing Section Styling Ends ----- */
+
+
+
+
+
+/* ----- Sandwich Header -------- */ 
+
+.simpleHeader {
+	width: 100%;
+	height: 100%;
+	padding-top: 200px;
+	padding-bottom: 100px;
+	background: #FFFFFF;
+}
+
+.simpleHeader h1 {
+  font-size: 50px;
+  font-weight: 900;
+  font-family: futura-pt, Futura, 'Trebuchet MS', Arial, sans-serif;
+  color: #323233;
+  margin: 0;
+}
+
+.simpleHeader h2 {
+  font-family: futura-pt, Futura, 'Trebuchet MS', Arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-style: normal;
+  font-weight: 600;
+  padding-top: 20px;
+  margin: 0;
+}
+
+/* ----- Sandwich Header Styling Ends -------- */ 
 
 
 /*----------------------------------------------------
