@@ -66,6 +66,10 @@ table {
 	border-spacing: 0;
 }
 
+div {
+	background-color: #FBFEFE
+}
+
 
 
 /* --- Common Styles ---*/
@@ -101,12 +105,12 @@ p {
 }
 
 ::-moz-selection {
-    color: #FFFFFF;
+    color: #FBFEFE;
     background: #3333CC;
 }
 
 ::selection {
-    color: #FFFFFF;
+    color: #FBFEFE;
     background: #3333CC;
 }
 
@@ -177,7 +181,7 @@ p {
 
 .logo:hover, .logo:focus {
 	text-decoration: none;
-	color: #FFF;
+	color: #FBFEFE;
 }
 
 
@@ -254,18 +258,18 @@ p {
 }
 
 .navbar-default .navbar-nav > .active > a {
-  background: #FFFFFF;
+  background: #FBFEFE;
   color: #222222;
   }
 
 
 .navbar-default .navbar-nav > .active > a:hover {
-    background: #FFFFFF;
+    background: #FBFEFE;
     color: #333333;
 }
 
 .navbar-default .navbar-nav > .active > a:focus {
-	background: #FFFFFF;
+	background: #FBFEFE;
   color: #111111;
 }
 
@@ -284,13 +288,13 @@ p {
 }
 
 .navbar-default .nav-white > li > a:hover {
-	color: #FFFFFF;
+	color: #FBFEFE;
 background-color: #13A0DD
 }
 
 .navbar-default .navbar-brand.nav-white {
 	padding-top: 14px;
-	color: #FFFFFF;
+	color: #FBFEFE;
 	font-size: 21px;
 	letter-spacing: 1px;
 	-webkit-transition: 300ms;
@@ -334,12 +338,12 @@ background-color: #13A0DD
 	}
 
   .navbar-default .navbar-brand {
-    color: #FFFFFF;
+    color: #FBFEFE;
 		padding: 16px 14px !important;
   }
 
 	.navbar-default .navbar-brand.nav-white {
-		color: #FFFFFF;
+		color: #FBFEFE;
 	}
 
   .navbar-default .navbar-toggle .icon-bar {
@@ -419,7 +423,7 @@ background-color: #13A0DD
 
 .hero-section {
 	height: 100%;
-	background: #FFFFFF;
+	background: #FBFEFE;
 	padding: 140px 0 0 0;
 }
 
@@ -452,7 +456,7 @@ background-color: #13A0DD
  background-color: #13A0DD;
  border: 1px solid #13A0DD;
  border-radius: 0;
- color: #FFFFFF;
+ color: #FBFEFE;
  font-size: 13px;
  font-weight: 400;
  letter-spacing: 2px;
@@ -471,7 +475,7 @@ background-color: #13A0DD
  background: transparent;
  outline: none;
  color: #13A0DD;
- background: #FFFFFF;
+ background: #FBFEFE;
  border-color: #13A0DD;
 }
 
@@ -484,7 +488,7 @@ background-color: #13A0DD
 
 .product .btn-action:hover, .product  .btn-action:focus {
  background: #92714A;
- color: #FFFFFF;
+ color: #FBFEFE;
  border-color: #82714A;
 }
 
@@ -505,12 +509,12 @@ background-color: #13A0DD
 
 .image-bg .hero-content h1 {
 	font-weight: 700;
-	color: #FFFFFF;
+	color: #FBFEFE;
 	background-color: #13A0DD;
 }
 
 .image-bg .hero-content p {
-	color: #FFFFFF;
+	color: #FBFEFE;
 }
 
 
@@ -524,7 +528,7 @@ background-color: #13A0DD
 
 .pitch {
 	padding: 100px 0 10px 0;
-	background: #FFFFFF;
+	background: #FBFEFE;
 }
 
 .pitch-intro {
@@ -563,7 +567,7 @@ background-color: #13A0DD
 
 .pitch-icon i {
 	font-size: 34px;
-	color: #FFFFFF;
+	color: #FBFEFE;
 	position: absolute;
 	left: 0;
 	right: 0;
@@ -643,7 +647,7 @@ background-color: #13A0DD
 -----------------------------------------------------*/
 
 .app-features {
-	background: #FFFFFF;
+	background: #FBFEFE;
 	padding: 40px 0 0px 0;
 	overflow-x: hidden;
 }
@@ -776,10 +780,7 @@ background-color: #13A0DD
 }
 
 .img-demo:hover img {
-  -webkit-transform: scale(1.02);
-	-moz-transform: scale(1.02);
-	-ms-transform: scale(1.02);
-	transform: scale(1.02);
+ -webkit-mask-image:RGBA(14, 163, 221, 0.4);
 }
 
 .img-full img {
@@ -788,7 +789,7 @@ background-color: #13A0DD
 }
 
 .aria {
-  background: #FFFFFF;
+  background: #FBFEFE;
   	padding: 40px 0 10px 0;
 
 }
@@ -803,8 +804,8 @@ background-color: #13A0DD
 }
 
 .aria h2 {
-	color:#0EA3DD;
-	font-size: 20px;
+	color:#323233;
+	font-size: 18px;
 	font-weight: 400;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -824,13 +825,7 @@ background-color: #13A0DD
 	font-weight: 300;
 }
 
-.aria .img-demo:hover img {
-  box-shadow: 0 1px 10px #999;
-}
 
-.advent .img-demo img {
-  box-shadow: 0 0px 0px #999;
-}
 
 
 /* -------------- Contact Styling Starts ---------------*/ 
@@ -844,7 +839,7 @@ background-color: #13A0DD
 }
 
 .contact {
-  background: #FFFFFF;
+  background: #FBFEFE;
   	padding: 40px 0 20px 0;
 
 }
@@ -1065,7 +1060,7 @@ text-decoration: none;
 	height: 100%;
 	padding-top: 200px;
 	padding-bottom: 100px;
-	background: #FFFFFF;
+	background: #FBFEFE;
 }
 
 .simpleHeader h1 {
@@ -1081,6 +1076,7 @@ text-decoration: none;
   font-size: 14px;
   line-height: 18px;
   font-style: normal;
+  text-transform: uppercase;
   font-weight: 600;
   padding-top: 20px;
   margin: 0;
