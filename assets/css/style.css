@@ -288,8 +288,8 @@ p {
 }
 
 .navbar-default .nav-white > li > a:hover {
-	color: #FBFEFE;
-background-color: #13A0DD
+	color: #0EA3DD;
+background-color: #FBFEFE
 }
 
 .navbar-default .navbar-brand.nav-white {
@@ -773,6 +773,11 @@ background-color: #13A0DD
   
 }
 
+.ourWork {
+	    margin-right: -15px;
+    margin-left: -15px
+}
+
 .img-demo img {
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
@@ -818,6 +823,8 @@ background-color: #13A0DD
 
 .title {
 	padding-bottom: 10px;
+  padding-right: 30px;
+    padding-left: 30px;
 }
 
 .title p {
