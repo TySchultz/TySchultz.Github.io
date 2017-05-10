@@ -97,11 +97,11 @@ html * {
 }
 */
 h1, h2, h3, h4, h5, h6 {
-  font-family: futura-pt, Futura, 'Trebuchet MS', Arial, sans-serif;
+  font-family: Lato;
 }
 
 p {
-  font-family: futura-pt, Futura, 'Trebuchet MS', Arial, sans-serif;
+  font-family: Lato;
 }
 
 ::-moz-selection {
@@ -131,14 +131,14 @@ p {
 
 .error-message {
 	color: #FF3333;
-  font-family: futura-pt, Futura, 'Trebuchet MS', Arial, sans-serif;
+  font-family: Lato;
 
 	margin-top: 5px;
 }
 
 .success-message {
 	color:#009900;
-  font-family: futura-pt, Futura, 'Trebuchet MS', Arial, sans-serif;
+  font-family: Lato;
 	margin-top: 5px;
 }
 
@@ -191,7 +191,7 @@ p {
 
 .navbar {
 	font-size: 15px;
-  	font-family: futura-pt, Futura, 'Trebuchet MS', Arial, sans-serif;
+  	font-family: Lato;
 	font-weight: 100;
 	text-transform: capitalize;
 	padding-top: 25px;
@@ -442,7 +442,7 @@ background-color: #FBFEFE
 }
 
 .hero-content p {
-  font-family: futura-pt, Futura, 'Trebuchet MS', Arial, sans-serif;
+  font-family: Lato;
 	font-size: 14px;
 	color: #000000;
 	font-weight: 400;
@@ -452,7 +452,7 @@ background-color: #FBFEFE
 
 
 .btn-action {
-  font-family: futura-pt, Futura, 'Trebuchet MS', Arial, sans-serif;
+  font-family: Lato;
  background-color: #13A0DD;
  border: 1px solid #13A0DD;
  border-radius: 0;
@@ -548,7 +548,7 @@ background-color: #FBFEFE
 
 
 .pitch-intro p {
-  font-family: futura-pt, Futura, 'Trebuchet MS', Arial, sans-serif;
+  font-family: Lato;
 	font-size: 18px;
 	font-weight:300;
 	line-height: 1.5;
@@ -588,7 +588,7 @@ background-color: #FBFEFE
 }
 
 .pitch-content p {
-  font-family: futura-pt, Futura, 'Trebuchet MS', Arial, sans-serif;
+  font-family: Lato;
 	font-size: 18px;
 	line-height: 1.5;
 	font-weight:300;
@@ -635,7 +635,7 @@ background-color: #FBFEFE
 .features .features-list ul li {
 	display: block;
 	margin: 0 0 14px 0;
-  font-family: futura-pt, Futura, 'Trebuchet MS', Arial, sans-serif;
+  font-family: Lato;
 	font-size: 16px;
 	line-height: 1.2;
 	color: #000000;
@@ -703,7 +703,7 @@ background-color: #FBFEFE
 }
 
 .app-features .feature-single p {
-  font-family: futura-pt, Futura, 'Trebuchet MS', Arial, sans-serif;
+  font-family: Lato;
 	font-size: 14px;
 	color: #000000;
 	line-height: 1.4;
@@ -742,7 +742,7 @@ background-color: #FBFEFE
 }
 
 .pricing p {
-  font-family: futura-pt, Futura, 'Trebuchet MS', Arial, sans-serif;
+  font-family: Lato;
 	font-size: 14px;
 	font-weight: 400;
 	color: #444444;
@@ -758,7 +758,7 @@ background-color: #FBFEFE
 }
 
 .pricing .price-tag h2 {
-  font-family: futura-pt, Futura, 'Trebuchet MS', Arial, sans-serif;
+  font-family: Lato;
 	font-size: 24px;
 	font-weight: 400;
 	color: #000000;
@@ -829,8 +829,8 @@ background-color: #FBFEFE
 }
 
 .title p {
-	font-size: 18px;
-	font-weight: 300;
+	font-size: 16px;
+	font-weight: 400;
 }
 
 
@@ -917,7 +917,7 @@ text-decoration: none;
 }
 
 .left h2 {
-  font-family: futura-pt, Futura, 'Trebuchet MS', Arial, sans-serif;
+  font-family: Lato;
   font-size: 14px;
   line-height: 18px;
   font-style: normal;
@@ -937,7 +937,7 @@ text-decoration: none;
 }
 
 .left p {
-  font-family: futura-pt, Futura, 'Trebuchet MS', Arial, sans-serif;
+  font-family: Lato;
   font-size: 14px;
   line-height: 18px;
   font-style: normal;
@@ -1001,7 +1001,7 @@ text-decoration: none;
 
 .table-left .pricing-details span, .table-right .pricing-details span {
 	display: inline-block;
-  font-family: futura-pt, Futura, 'Trebuchet MS', Arial, sans-serif;
+  font-family: Lato;
 	font-size: 28px;
 	font-weight: 400;
 	color: #808080;
@@ -1016,7 +1016,7 @@ text-decoration: none;
 }
 
 .table-left .pricing-details p, .table-right .pricing-details p {
-  font-family: futura-pt, Futura, 'Trebuchet MS', Arial, sans-serif;
+  font-family: Lato;
 	font-size: 14px;
 	font-weight: 300;
 	color: #505050;
@@ -1031,7 +1031,7 @@ text-decoration: none;
 
 
 .table-left .pricing-details li, .table-right .pricing-details li {
-  font-family: futura-pt, Futura, 'Trebuchet MS', Arial, sans-serif;
+  font-family: Lato;
 	font-size: 14px;
 	font-weight: 400;
 	color: #505050;
@@ -1074,12 +1074,12 @@ text-decoration: none;
 .simpleHeader h1 {
   font-size: 60px;
   font-weight: 900;
-  font-family: futura-pt, Futura, 'Trebuchet MS', Arial, sans-serif;
+  font-family: Poppins;
   color: #193758;
 }
 
 .simpleHeader h2 {
-  font-family: futura-pt, Futura, 'Trebuchet MS', Arial, sans-serif;
+  font-family: Poppins;
   font-size: 14px;
   line-height: 18px;
   font-style: normal;
@@ -1087,6 +1087,7 @@ text-decoration: none;
   font-weight: 600;
   padding-top: 20px;
   color: #193758;
+
   margin: 0;
 }
 
