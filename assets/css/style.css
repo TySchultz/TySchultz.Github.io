@@ -534,7 +534,7 @@ background-color: #FBFEFE
 .pitch-intro {
 	max-width: 600px;
 	margin: 0 auto;
-	padding: 0 0 100px 0;
+	padding: 0 0 40px 0;
 }
 
 .pitch-intro h1 {
@@ -597,6 +597,7 @@ background-color: #FBFEFE
 	text-align: left;
 	letter-spacing: 0;
 }
+
 
 
 
