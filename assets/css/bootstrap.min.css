@@ -2063,7 +2063,8 @@ pre code {
 .col-xs-6,
 .col-xs-7,
 .col-xs-8,
-.col-xs-9 {
+.col-xs-9,
+.col-5wide {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
@@ -2081,9 +2082,11 @@ pre code {
 .col-xs-6,
 .col-xs-7,
 .col-xs-8,
-.col-xs-9 {
+.col-xs-9,
+.col-5wide {
     float: left
 }
+
 
 .col-xs-12 {
     width: 100%
@@ -2123,6 +2126,10 @@ pre code {
 
 .col-xs-3 {
     width: 25%
+}
+
+.col-5wide{
+    width: 100%
 }
 
 .col-xs-2 {
@@ -2301,7 +2308,8 @@ pre code {
     .col-sm-6,
     .col-sm-7,
     .col-sm-8,
-    .col-sm-9 {
+    .col-sm-9,
+    .col-5wide {
         float: left
     }
     .col-sm-12 {
@@ -2334,6 +2342,11 @@ pre code {
     .col-sm-3 {
         width: 25%
     }
+
+    .col-5wide {
+        width: 50%
+    }
+
     .col-sm-2 {
         width: 16.66666667%
     }
@@ -2471,7 +2484,8 @@ pre code {
     .col-md-6,
     .col-md-7,
     .col-md-8,
-    .col-md-9 {
+    .col-md-9,
+    .col-5wide {
         float: left
     }
     .col-md-12 {
@@ -2504,6 +2518,11 @@ pre code {
     .col-md-3 {
         width: 25%
     }
+
+    .col-5wide{
+        width: 20%
+    }
+
     .col-md-2 {
         width: 16.66666667%
     }
@@ -2627,6 +2646,7 @@ pre code {
     .col-md-offset-0 {
         margin-left: 0
     }
+    
 }
 
 @media (min-width:1200px) {
@@ -5094,6 +5114,9 @@ textarea.input-group-sm>.input-group-btn>.btn {
     margin-right: -15px;
     margin-left: -15px
 }
+
+
+
 
 @media (min-width:768px) {
     .container-fluid>.navbar-collapse,
