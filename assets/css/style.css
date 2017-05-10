@@ -190,7 +190,7 @@ p {
 
 
 .navbar {
-	font-size: 15px;
+	font-size: 14px;
   	font-family: futura-pt, Futura, 'Trebuchet MS', Arial, sans-serif;
 	font-weight: 100;
 	text-transform: capitalize;
@@ -230,12 +230,12 @@ p {
 .navbar-default .navbar-brand .navbar-toggle .collapsed {
     padding: 4px 6px;
     font-size: 14px;
-    color: #111111;
+    color: #193758;
   }
 
 .navbar-default .navbar-brand {
 	padding-top: 5px;
-	color: #111111;
+	color: #193758;
 	-webkit-transition: 300ms;
 	-moz-transition: 300ms;
 	-o-transition: 300ms;
@@ -247,19 +247,19 @@ p {
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: #111111;
+  color: #193758;
   -webkit-transition: all 0.5s;
 	-moz-transition: all 0.5;
   transition: all 0.5s;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-  color: #000000;
+  color: #193758;
 }
 
 .navbar-default .navbar-nav > .active > a {
   background: #FBFEFE;
-  color: #222222;
+  color: #193758;
   }
 
 
@@ -270,7 +270,7 @@ p {
 
 .navbar-default .navbar-nav > .active > a:focus {
 	background: #FBFEFE;
-  color: #111111;
+  color: #193758;
 }
 
 .navbar-default .navbar-collapse {
@@ -279,12 +279,12 @@ p {
 }
 
 .navbar-default .navbar-nav .open .dropdown-toggle {
-  color: #111111;
+  color: #193758;
 }
 
 .navbar-default .nav-white > li > a {
 	font-weight: 300;
-	color: #000000;
+	color: #193758;
 }
 
 .navbar-default .nav-white > li > a:hover {
@@ -1067,7 +1067,7 @@ text-decoration: none;
   font-size: 50px;
   font-weight: 900;
   font-family: futura-pt, Futura, 'Trebuchet MS', Arial, sans-serif;
-  color: #323233;
+  color: #193758;
   margin: 0;
 }
 
@@ -1079,6 +1079,7 @@ text-decoration: none;
   text-transform: uppercase;
   font-weight: 600;
   padding-top: 20px;
+  color: #193758;
   margin: 0;
 }
 
