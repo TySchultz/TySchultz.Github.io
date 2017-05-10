@@ -192,7 +192,7 @@ p {
 .navbar {
 	font-size: 15px;
   	font-family: Lato;
-	font-weight: 100;
+	font-weight: 600;
 	text-transform: capitalize;
 	padding-top: 25px;
 	letter-spacing: 1px;
@@ -283,7 +283,7 @@ p {
 }
 
 .navbar-default .nav-white > li > a {
-	font-weight: 300;
+	font-weight: 600;
 	color: #193758;
 }
 
