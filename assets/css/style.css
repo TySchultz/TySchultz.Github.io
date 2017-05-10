@@ -75,7 +75,7 @@ div {
 /* --- Common Styles ---*/
 
 h1 {
-  font-size: 16px;
+  font-size: 15px;
 }
 
 /*----- Helper Classes -----*/
@@ -549,7 +549,7 @@ background-color: #FBFEFE
 
 .pitch-intro p {
   font-family: Lato;
-	font-size: 16px;
+	font-size: 15px;
 	font-weight:300;
 	line-height: 1.5;
 	color: #000000;
@@ -590,7 +590,7 @@ background-color: #FBFEFE
 
 .pitch-content p {
   font-family: Lato;
-	font-size: 16px;
+	font-size: 15px;
 	line-height: 1.5;
 	font-weight: 500;
 	color: #454545;
@@ -639,7 +639,7 @@ background-color: #FBFEFE
 	display: block;
 	margin: 0 0 14px 0;
   font-family: Lato;
-	font-size: 16px;
+	font-size: 15px;
 	line-height: 1.2;
 	color: #000000;
 }
@@ -662,7 +662,7 @@ background-color: #FBFEFE
 }
 
 .app-features p {
-	font-size: 16px;
+	font-size: 15px;
 	font-weight: 600;
 	color: #000000;
 	line-height: 1.4;
@@ -813,7 +813,7 @@ background-color: #FBFEFE
 
 .aria h2 {
 	color:#323233;
-	font-size: 16px;
+	font-size: 15px;
 	font-weight: 600;
 	padding-top: 40px;
 	padding-bottom: 20px;
@@ -832,7 +832,7 @@ background-color: #FBFEFE
 }
 
 .title p {
-	font-size: 16px;
+	font-size: 15px;
 	font-weight: 600;
 }
 
@@ -1012,7 +1012,7 @@ text-decoration: none;
 }
 
 .table-left .pricing-details h2, .table-right .pricing-details h2 {
-	font-size: 16px;
+	font-size: 15px;
 	font-weight: 600;
 	color: #505050;
 	margin-bottom: 30px;
@@ -1164,7 +1164,7 @@ text-decoration: none;
 	}
 
 	.features .features-list ul li {
-		font-size: 16px;
+		font-size: 15px;
 		display: list-item;
 		text-align: left;
 	}
