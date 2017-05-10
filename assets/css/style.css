@@ -190,7 +190,7 @@ p {
 
 
 .navbar {
-	font-size: 14px;
+	font-size: 15px;
   	font-family: futura-pt, Futura, 'Trebuchet MS', Arial, sans-serif;
 	font-weight: 100;
 	text-transform: capitalize;
@@ -355,7 +355,7 @@ background-color: #13A0DD
 
 
 .navbar.past-main {
-	font-size: 14px;
+	font-size: 15px;
 	padding-top: 5px;
 	height: 60px;
 	background-color: rgba(255, 255, 255, 0.99);
@@ -1064,11 +1064,10 @@ text-decoration: none;
 }
 
 .simpleHeader h1 {
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 900;
   font-family: futura-pt, Futura, 'Trebuchet MS', Arial, sans-serif;
   color: #193758;
-  margin: 0;
 }
 
 .simpleHeader h2 {
