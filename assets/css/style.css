@@ -579,11 +579,12 @@ background-color: #FBFEFE
 }
 
 .pitch-content h1 {
-	font-size: 21px;
+	font-size: 18px;
 	font-weight: 600;
 	line-height: 1.2;
 	letter-spacing: 0;
 	color: #454545;
+	text-align: left;
 	margin: 0 0 10px 0;
 }
 
@@ -593,6 +594,7 @@ background-color: #FBFEFE
 	line-height: 1.5;
 	font-weight:300;
 	color: #454545;
+	text-align: left;
 	letter-spacing: 0;
 }
 
