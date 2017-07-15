@@ -1,0 +1,93 @@
+{
+    "myrows": [{
+        "rank": "1",
+        "rider": "THOMAS Geraint",
+        "rider No.": "9",
+        "team": "TEAM SKY",
+        "points": "20 pts"
+    }, {
+        "rank": "2",
+        "rider": "KUENG Stefan",
+        "rider No.": "44",
+        "team": "BMC RACING TEAM",
+        "points": "17 pts"
+    }, {
+        "rank": "3",
+        "rider": "KIRYIENKA Vasili",
+        "rider No.": "3",
+        "team": "TEAM SKY",
+        "points": "15 pts"
+    }, {
+        "rank": "4",
+        "rider": "MARTIN Tony",
+        "rider No.": "121",
+        "team": "TEAM KATUSHA ALPECIN",
+        "points": "13 pts"
+    }, {
+        "rank": "5",
+        "rider": "TRENTIN Matteo",
+        "rider No.": "108",
+        "team": "QUICK - STEP FLOORS",
+        "points": "11 pts"
+    }, {
+        "rank": "6",
+        "rider": "FROOME Christopher",
+        "rider No.": "1",
+        "team": "TEAM SKY",
+        "points": "10 pts"
+    }, {
+        "rank": "7",
+        "rider": "VAN EMDEN Jos",
+        "rider No.": "168",
+        "team": "TEAM LOTTO NL - JUMBO",
+        "points": "9 pts"
+    }, {
+        "rank": "8",
+        "rider": "KWIATKOWSKI Michal",
+        "rider No.": "5",
+        "team": "TEAM SKY",
+        "points": "8 pts"
+    }, {
+        "rank": "9",
+        "rider": "KITTEL Marcel",
+        "rider No.": "101",
+        "team": "QUICK - STEP FLOORS",
+        "points": "7 pts"
+    }, {
+        "rank": "10",
+        "rider": "BOASSON HAGEN Edvald",
+        "rider No.": "92",
+        "team": "TEAM DIMENSION DATA",
+        "points": "6 pts"
+    }, {
+        "rank": "11",
+        "rider": "ARNDT Nikias",
+        "rider No.": "142",
+        "team": "TEAM SUNWEB",
+        "points": "5 pts"
+    }, {
+        "rank": "12",
+        "rider": "PHINNEY Taylor",
+        "rider No.": "186",
+        "team": "CANNONDALE DRAPAC PROFESSIONAL CYCLING TEAM",
+        "points": "4 pts"
+    }, {
+        "rank": "13",
+        "rider": "GRIVKO Andriy",
+        "rider No.": "54",
+        "team": "ASTANA PRO TEAM",
+        "points": "3 pts"
+    }, {
+        "rank": "14",
+        "rider": "IMPEY Daryl",
+        "rider No.": "86",
+        "team": "ORICA - SCOTT",
+        "points": "2 pts"
+    }, {
+        "rank": "15",
+        "rider": "CASTROVIEJO Jonathan",
+        "rider No.": "25",
+        "team": "MOVISTAR TEAM",
+        "points": "1 pts"
+    }]
+}

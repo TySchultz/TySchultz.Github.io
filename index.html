@@ -16,7 +16,13 @@
   <!-- Resource style -->
   <!-- Resource style -->
   <link href="assets/css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="assets/css/app-store.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="assets/css/globalnav.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="assets/css/global.dist.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="assets/css/whats-new.css" rel="stylesheet" type="text/css" media="all" />
+
   <link href="assets/css/stylesheet.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="https://fonts.googleapis.com/css?family=Bungee|Montserrat|Rubik:900" rel="stylesheet">
   <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" />
 </head>
 
@@ -33,16 +39,17 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <img class="wow fadeIn" data-wow-delay="0.7s" border="0" src="assets/images/logoBookcase.jpg" width="253" height="40">
+            <img class="wow fadeIn" data-wow-delay="0.7s" border="0" src="assets/images/logoBookcase.svg" width="253" height="40">
           </div>
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav nav-white">
-              <li><a class="page-scroll" href="#pitch">About</a></li>
-              <li><a class="page-scroll" href="#fullPackage">Features</a></li>
-              <li><a class="page-scroll" href="#ourWork">Our Work</a></li>
-              <li><a class="page-scroll" href="#Pricing">Pricing</a></li>
-              <li><a class="page-scroll" href="#contact">Contact</a></li>
+              <li><a class="page-scroll" href="Pages/HowItWorks.html">About</a></li>
+              <li><a class="page-scroll" href="Pages/HowItWorks.html">How It works</a></li>
+              <li><a class="page-scroll" href="Pages/OurWork.html">Our Work</a></li>
+            <li><a class="page-scroll" href="Pages/FirstProjectTutorial.html">Tutorials</a></li>  
+              <li><a class="page-scroll" href="Pages/Process.html">Process</a></li>
+              <li><a class="page-scroll" href="Pages/Contact.html">Contact</a></li>
             </ul>
           </div>
         </div>
@@ -55,11 +62,13 @@
       <div>
         <div class="container">
           <div class="row text-center">
-            <div class="col-md-12">
+            <div class="col-sm-1"></div>
+            <div class="col-md-10">
               <div class="simpleHeader wow fadeIn" data-wow-delay="0.1s">
-                <br>
-                <h1>BLUE BOOKCASE</h1>
-                <h1 style="color: #0EA3DD">DESIGN</h1>
+                <div id="cf">
+                  <img class="bottom img-responsive" src="assets/images/headerWithDots.svg" />
+                  <img class="top img-responsive" src="assets/images/headerNoDots.svg" />
+                </div>
                 <br>
                 <br><br>
                 <br>
@@ -67,49 +76,173 @@
                 <br>
                 <h2>Here is what we do.</h2>
               </div>
+              <a class="page-scroll" href="#ourWork"><img class="downArrow wow fadeIn" data-wow-delay="0.4s" border="0" src="assets/images/downArrow.svg" width="32"
+                  height="16"></a>
             </div>
           </div>
         </div>
       </div>
+      <header>
+        <div class="stripes">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+       
+      </header>
+
+      <main id="main" class="main" role="main">
+
+		<section class="section section-hero">
+			<div class="section-content">
+				<div class="row">
+					<div class="column large-10 medium-11 small-12 large-centered text-center">
+					<span class="violator violator-alt inline-block center margin-bottom-small">iOS 11 beta</span>
+					<h1 class="typography-hero-headline">The All-New App&nbsp;Store</h1>
+					<p class="typography-intro">The App&nbsp;Store first launched nine years ago. And today, with over two million apps that transform the way we work, learn, and play, it’s the best app platform in the world. Now the App&nbsp;Store has been redesigned from the ground up to provide a beautiful place to showcase amazing apps and to help customers discover new favorites.</p>
+					</div>
+				</div>
+			</div>
+			<figure class="image-hero" data-figure-id="image-hero" data-hires-status="pending" style="background-image: url(https://developer.apple.com/app-store/whats-new/images/app-store-hero-large_2x.png);"></figure>
+		</section>
+
+		<section class="section section-today">
+			<div class="section-content">
+				<div class="row">
+					<div class="column large-6 small-12">
+						<div class="copy-wrapper">
+							<h2 class="typography-subsection-headline">Today — It All Starts Here</h2>
+							<p>The Today tab is a daily destination with original stories from our editors around the world, featuring exclusive premieres, new releases, a fresh look at our all-time favorites, an App of the Day, a Game of the Day, and more. Stories share Apple’s unique perspective on apps and games and how they impact our lives, using artwork, videos, and developer quotes to bring your apps to life.</p>
+							<p>If your app has a unique story that our editorial team should know about, <a href="/app-store/discoverability/" onclick="s_objectID=&quot;https://developer.apple.com/app-store/discoverability/_1&quot;;return this.s_oc?this.s_oc(e):true">learn more</a>.</p>
+						</div>
+					</div>
+					<div class="column large-5 large-offset-1 medium-offset-0 small-12 small-offset-0">
+						<div class="frame-iphone-7" data-hires-status="pending" style="background-image: url(https://developer.apple.com/app-store/whats-new/images/iphone-7-frame-large_2x.png);">
+							<figure class="image-today" data-figure-id="image-today" data-hires-status="pending" style="background-image: url(https://developer.apple.com/app-store/whats-new/images/tab-today_2x.png);"></figure>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section section-games">
+			<div class="section-content">
+				<div class="row">
+					<div class="column large-6 small-12">
+						<div class="copy-wrapper">
+							<h2 class="typography-subsection-headline">A Fresh Take on Games&nbsp;and Apps</h2>
+							<p>The all-new App&nbsp;Store is now also the world’s best game store, with dedicated experiences for Games and Apps, that inform and engage customers through recommendations on new releases and updates, videos, top charts, and handpicked collections and categories.</p>
+						</div>
+					</div>
+					<div class="column large-5 large-offset-1 medium-offset-0 small-12 small-offset-0">
+						<div class="frame-iphone-7 frame-games" data-hires-status="pending" style="background-image: url(https://developer.apple.com/app-store/whats-new/images/iphone-7-frame-large_2x.png);">
+							<figure class="image-games" data-figure-id="image-games" data-hires-status="pending" style="background-image: url(https://developer.apple.com/app-store/whats-new/images/tab-games_2x.png);"></figure>
+						</div>
+						<div class="frame-iphone-7 frame-apps" data-hires-status="pending" style="background-image: url(https://developer.apple.com/app-store/whats-new/images/iphone-7-frame-large_2x.png);">
+							<figure class="image-apps" data-figure-id="image-apps" data-hires-status="pending" style="background-image: url(https://developer.apple.com/app-store/whats-new/images/tab-apps_2x.png);"></figure>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section section-product-page">
+			<div class="section-content">
+				<div class="row">
+					<div class="column large-6 small-12">
+						<h2 class="typography-subsection-headline">A Deeper Product&nbsp;Page Experience</h2>
+						<p>Product pages now offer more opportunities to showcase your apps with additional app previews, localization, and new text fields. Show more of your user experience with up to three app previews that autoplay, so customers can quickly see how your app works or watch what it’s like to play your game. You can also localize all of your app previews and screenshots.</p>
+						<p>The new subtitle field allows you to convey your app’s essence and unique qualities in a few words, and promotional text lets you share the latest news about your app, such as timely marketing messages, limited-time events, and announcements of new content.</p>
+						<p>To start preparing your apps, see <a class="nowrap" href="/app-store/product-page/" onclick="s_objectID=&quot;https://developer.apple.com/app-store/product-page/_1&quot;;return this.s_oc?this.s_oc(e):true">Making the Most of Your Product Page</a>.</p>
+					</div>
+					<div class="column large-5 large-offset-1 medium-offset-0 small-12 small-offset-0">
+						<div class="frame-iphone-7" data-hires-status="pending" style="background-image: url(https://developer.apple.com/app-store/whats-new/images/iphone-7-frame-large_2x.png);">
+							<figure class="image-product-page" data-figure-id="image-product-page" data-hires-status="pending" style="background-image: url(https://developer.apple.com/app-store/whats-new/images/product-page_2x.png);"></figure>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section section-in-app-purchases">
+			<div class="section-content">
+				<div class="row">
+					<div class="column large-6 small-12">
+						<div class="copy-wrapper">
+							<h2 class="typography-subsection-headline">Promoting In-App Purchases</h2>
+							<p>Now customers can browse in-app purchases directly on the App&nbsp;Store and start a purchase even before downloading your app, helping your app’s content gain exposure. You can promote up to 20 in-app purchases, including subscriptions, on your app's product page. They can also appear in search results and may be featured by our editorial team.</p>
+							<p>To start preparing your apps, see <a class="nowrap" href="/app-store/promoting-in-app-purchases/" onclick="s_objectID=&quot;https://developer.apple.com/app-store/promoting-in-app-purchases/_1&quot;;return this.s_oc?this.s_oc(e):true">Promoting Your In-App Purchases</a>.</p>
+						</div>
+					</div>
+					<div class="column large-5 large-offset-1 medium-offset-0 small-12 small-offset-0">
+						<div class="frame-iphone-7" data-hires-status="pending" style="background-image: url(https://developer.apple.com/app-store/whats-new/images/iphone-7-frame-large_2x.png);">
+							<figure class="image-previews" data-figure-id="image-in-app-purchases" data-hires-status="pending" style="background-image: url(https://developer.apple.com/app-store/whats-new/images/in-app-purchases_2x.png);"></figure>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="section section-search">
+			<div class="section-content">
+				<div class="row">
+					<div class="column large-6 small-12">
+					<div class="copy-wrapper">
+						<h2 class="typography-subsection-headline">Enhanced Search</h2>
+						<p>Expanded results and new user interface make your content more discoverable and help customers easily find the content they're looking for. Search results now include developers, in-app purchases, categories, editorial stories, tips and tricks, and collections.</p>
+					</div>
+				</div>
+					<div class="column large-5 large-offset-1 medium-offset-0 small-12 small-offset-0">
+					<div class="frame-iphone-7" data-hires-status="pending" style="background-image: url(https://developer.apple.com/app-store/whats-new/images/iphone-7-frame-large_2x.png);">
+						<figure class="image-in-app-purchases" data-figure-id="image-search" data-hires-status="pending" style="background-image: url(https://developer.apple.com/app-store/whats-new/images/tab-search_2x.png);"></figure>
+					</div>
+				</div>
+				</div>
+			</div>
+		</section>
+
+	</main>
       <div class="title">
-        <div id="img-demo" class="wow fadeIn" data-wow-delay="0.5s">
+        <div id="ourWork" class="wow fadeIn" data-wow-delay="0.5s">
           <div class="row text-center">
             <div class="col-5wide">
               <div class="img-demo aria">
-                <a href="SamplePage.html"><img class="img-responsive" src="assets/images/squareRPAC.jpg" alt=""></a>
-                <div class="demo-title">
+                <div class="img-overlay">
+                  <a href="Pages/RPAC.html"><img class="img-responsive" src="assets/images/squareRPAC.jpg" alt=""></a>
                 </div>
                 <h2 class=""> RPAC </h2>
               </div>
             </div>
             <div class="col-5wide">
               <div class="img-demo aria">
-                <a href="SamplePage.html"><img class="img-responsive" src="assets/images/squarePICKUP.jpg" alt=""></a>
-                <div class="demo-title">
+                <div class="img-overlay">
+                  <a href="Pages/Pickup.html"><img class="img-responsive" src="assets/images/squarePLANIT.jpg" alt=""></a>
                 </div>
                 <h2 class=" "> PickUp</h2>
               </div>
             </div>
             <div class="col-5wide">
               <div class="img-demo aria">
-                <a href="SamplePage.html"><img class="img-responsive" src="assets/images/squarePLANIT.jpg" alt=""></a>
-                <div class="demo-title">
+                <div class="img-overlay">
+                  <a href="Pages/Planit.html"><img class="img-responsive" src="assets/images/squareEMERALd.jpg" alt=""></a>
                 </div>
                 <h2 class=" "> PlanIt </h2>
               </div>
             </div>
             <div class="col-5wide">
               <div class="img-demo aria ">
-                <a href="SamplePage.html"><img class="img-responsive" src="assets/images/squareEMERALd.jpg" alt=""></a>
-                <div class="demo-title">
+                <div class="img-overlay">
+                  <a href="Pages/RPAC.html"><img class="img-responsive" src="assets/images/squareECOAPP.jpg" alt=""></a>
                 </div>
                 <h2 class=" "> EmeraldCity </h2>
               </div>
             </div>
             <div class="col-5wide">
               <div class="img-demo aria">
-                <a href="SamplePage.html"><img class="img-responsive" src="assets/images/squareEMERALd.jpg" alt=""></a>
-                <div class="demo-title">
+                <div class="img-overlay">
+                  <a href="Pages/EmeraldCity.html"><img class="img-responsive" src="assets/images/squarePICKUP.jpg" alt=""></a>
                 </div>
                 <h2 class=" "> EmeraldCity </h2>
               </div>
@@ -216,55 +349,59 @@
             </div>
           </div>
         </div>
-        <div class="spacer"></div>
-      </div>
-      <!-- Our Work !-->
-      <div class="footer text-center ">
-        <div class="container">
-          <h1 class="">About Blue Bookcase</span>
-          </h1>
-          <div class="row text-center">
-            <div class="col-md-3">
-            </div>
-            <div class="col-md-3">
-              <div class="pitch-content">
-                <p>
-                  We completely love mobile design. </p><br>
-                <p>
-                  In 2011, Ty Schultz released his first of many apps to the store. He created an endless runner game, enjoyed by a few users.
-                  After shipping he found a level beyond just the code.</p><br>
-                <p>
-                  He realized design is important when connecting to the user, if not essential.
-                </p>
+        <!-- Our Work !-->
+        <div class="footer text-center ">
+          <div class="container">
+            <h1 class="">About Blue Bookcase</span>
+            </h1>
+            <div class="row text-center">
+              <div class="col-md-3">
+              </div>
+              <div class="col-md-3">
+                <div class="pitch-content">
+                  <p>
+                    We completely love mobile design. </p><br>
+                  <p>
+                    In 2011,<a> Ty Schultz </a> his first of many apps to the store. He created an endless runner game, enjoyed
+                    by just a small few users. But after shipping he found a new level beyond just the code.</p><br>
+                  <p>
+                    He realized design is important when connecting to the user, if not essential.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="pitch-content">
+                  <p>
+                    We're not here for pretty colors or shapes -- we're here to create connections through that small glass rectangle. People
+                    return to apps because of a feeling and purpose, we like to help make that happen.
+                  </p><br>
+                  <p>Want to know more about how it works? We wrote a <a> How it Works.</a></p>
+                </div>
+              </div>
+              <div class="col-md-3">
               </div>
             </div>
-            <div class="col-md-3">
-              <div class="pitch-content">
-                <p>
-                  We're not here for pretty colors or shapes -- we're here to create connections through that small glass rectangle. People
-                  return to apps because of a feeling and purpose, we like to help make that happen.
-                </p><br>
-                <p>Want to know more about how it works? We wrote a <a> How it Works.</a></p>
-              </div>
-            </div>
-            <div class="col-md-3">
-            </div>
+            <br>
+            <br>
+            <br>
+            <h3>Blue Bookcase Design</h3>
+            <h3>Cleveland, Ohio</h3>
+            <a>
+              <h3>@bluebookcase</h3>
+            </a>
           </div>
-          <br>
-          <br>
-          <br>
-          <h3>Blue Bookcase Design</h3>
-          <h3>Columbus, OH</h3>
-          <h3>@bluebookcase</h3>
         </div>
+        <!-- our work !-->
       </div>
-      <!-- Wrapper-->
-      <!-- Jquery and Js Plugins -->
-      <script type="text/javascript" src="assets/js/jquery-2.1.1.js"></script>
-      <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-      <script type="text/javascript" src="assets/js/plugins.js"></script>
-      <script type="text/javascript" src="assets/js/custom.js"></script>
-      <script type="text/javascript" src="//use.typekit.net/mka8twg.js"></script>
+    </div>
+  </div>
+  <!-- Wrapper-->
+  <!-- Jquery and Js Plugins -->
+  <script type="text/javascript" src="assets/js/jquery-2.1.1.js"></script>
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="assets/js/plugins.js"></script>
+  <script type="text/javascript" src="assets/js/custom.js"></script>
+  <script type="text/javascript" src="//use.typekit.net/mka8twg.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Blue Bookcase Design</title>
+    <link rel="icon" href="../assets/logos/favicon.jpg" type="image/jpg" sizes="16x16">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Advent Multipurpose Landing Page Template">
+    <meta name="keywords" content="Advent HTML Template, Advent Landing Page, Landing Page Template">
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7CRoboto%7CJosefin+Sans:100,300,400,500"
+        rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../assets/css/animate.css">
+    <!-- Resource style -->
+    <!-- Resource style -->
+    <link href="../assets/css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../assets/css/stylesheet.css" rel="stylesheet" type="text/css" media="all" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/css?family=Bungee|Montserrat|Rubik:900" rel="stylesheet">
+    <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <div class="wrapper ">
+        <div class="container">
+            <nav class="navbar navbar-default navbar-fixed-top wow fadeIn" data-wow-delay="0.0s">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header page-scroll">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+                        <a href="../index.html"><img class="wow fadeIn" data-wow-delay="0.3s" border="0" src="./../assets/images/logoBookcase.jpg"
+                                width="253" height="40"></a>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav nav-white">
+                            <li><a class="page-scroll" href="../Pages/HowItWorks.html">About</a></li>
+                            <li><a class="page-scroll" href="../Pages/HowItWorks.html">How It works</a></li>
+                            <li><a class="page-scroll" href="../Pages/OurWork.html">Our Work</a></li>
+                            <li><a class="page-scroll" href="../Pages/Process.html">Process</a></li>
+                            <li><a class="page-scroll" href="../Pages/Contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <nav class="floating-menu">
+                <h1>First Tutorial</h1>
+                <p><a class="page-scroll" href="#SettingEverythingUp">Setting Everything Up</a></p>
+                <p><a class="page-scroll" href="#XcodeInterface">Xcode Interface</a></p>
+                <p><a class="page-scroll" href="#AddingALabel">Adding a Label</a></p>
+                <p><a class="page-scroll" href="#ConnectingTheLabel">Connecting The Label</a></p>
+                <p><a class="page-scroll" href="#HalfwayThere!">Halfway! Adding a Button</a></p>
+                <p><a class="page-scroll" href="#ButtonConnections">Connect Button Action</a></p>
+                <p><a class="page-scroll" href="#ButtonFunctionality">Button Functionality</a></p>
+                <p><a class="page-scroll" href="#Complete">Finish!</a></p>
+            </nav>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+        <div class="main image-bg" id="main">
+            <!-- Main Section-->
+            <div>
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-sm-1"></div>
+                        <div class="col-md-10">
+                            <div class="simpleHeader wow fadeIn" data-wow-delay="0.1s">
+                                <div id="cf">
+                                    <img class="bottom img-responsive" src="../assets/images/headerWithDots.svg" />
+                                    <img class="top img-responsive" src="../assets/images/headerNoDots.svg" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- our work !-->
+        <div class="row wow fadeIn" data-wow-delay="0.2s">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <div class="pitch-content">
+                    <div class="howItWorks">
+                        <h1>First Tutorial</h1>
+                        <p><span>Here's how its going to work. Most of the time there will be a full video of the entire building process that you will be able to follow along with.  </span>
+                        </p>
+                        <p><span>Along with that video, below will be screenshots and specific callouts to what exactly is going on. </span></p>
+                        <p><span>Either way you should be able to follow along and by the end of this have a simple app that you can run on your phone!</span></p>
+                        <iframe src="https://player.vimeo.com/video/219324510" width="640" height="320" frameborder="0" webkitallowfullscreen mozallowfullscreen
+                            allowfullscreen></iframe>
+                        <ol start="50">
+                            <h1 id="SettingEverythingUp">Setting Everything Up</h1>
+                            <p>First off you will need to download Xcode if you havent done so already. <a href="https://developer.apple.com/download/">(Download Xcode Here)</a>
+                            </p>
+                            <p><span> Once you have that open go the menu bar up top and choose File > New  > Project. </span></p>
+                            <p><span> For this project we will choose a single view application and keep things simple. </span></p>
+                            <p><span> A new screen allowing you to enter some information. Enter the name of the project "FirstProject" will work. And for the rest of the information you will want to uncheck; Use Core Data, Include Unit Tests, Include UI Tests. We will get to those later but for now we do not need them. </span></p>
+                            <p><span> Great! Now we are all set up. Go to the top left of the window and choose iPhone 7 from the list of devices.  </span></p>
+                            <p><span> Next press the playbutton to the left and a virtual iPhone should appear with a blank white screen </span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+        <div class="row" data-wow-delay="0.2s">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <div class="w3-content" style="max-width:1200px">
+                    <img class="mySlides" src="../assets/images/Tutorial/FirstTutorial/screen1.png" style="width:100%">
+                    <img class="mySlides" src="../assets/images/Tutorial/FirstTutorial/screen2.png" style="width:100%">
+                    <img class="mySlides" src="../assets/images/Tutorial/FirstTutorial/screen3.png" style="width:100%">
+                    <img class="mySlides" src="../assets/images/Tutorial/FirstTutorial/screen4.png" style="width:100%">
+                    <img class="mySlides" src="../assets/images/Tutorial/FirstTutorial/screen5.png" style="width:100%">
+                    <div class="w3-row-padding w3-section">
+                        <div class="w3-col s2">
+                            <img class="demo w3-opacity w3-hover-opacity-off" src="../assets/images/Tutorial/FirstTutorial/screen1.png" style="width:100%"
+                                onclick="currentDiv(1)">
+                        </div>
+                        <div class="w3-col s2">
+                            <img class="demo w3-opacity w3-hover-opacity-off" src="../assets/images/Tutorial/FirstTutorial/screen2.png" style="width:100%"
+                                onclick="currentDiv(2)">
+                        </div>
+                        <div class="w3-col s2">
+                            <img class="demo w3-opacity w3-hover-opacity-off" src="../assets/images/Tutorial/FirstTutorial/screen3.png" style="width:100%"
+                                onclick="currentDiv(3)">
+                        </div>
+                        <div class="w3-col s2">
+                            <img class="demo w3-opacity w3-hover-opacity-off" src="../assets/images/Tutorial/FirstTutorial/screen4.png" style="width:100%"
+                                onclick="currentDiv(4)">
+                        </div>
+                        <div class="w3-col s2">
+                            <img class="demo w3-opacity w3-hover-opacity-off" src="../assets/images/Tutorial/FirstTutorial/screen5.png" style="width:100%"
+                                onclick="currentDiv(5)">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+        <div class="row" data-wow-delay="0.2s" id="XcodeInterface">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <div class="pitch-content">
+                    <div class="howItWorks">
+                        <h1>Xcode Interface</h1>
+                        <p><span> In the Red on the left we have the file inspector. We can view all the files in our project here. </span></p>
+                        <p><span> In the Orange in the center is our workspace. This is where we can edit the file currently selected in our file inspector. </span></p>
+                        <p><span> In the Purple the right is our attribute inspector. This gives us details and attributes of what we have selected in our workspace. </span></p>
+                        <p><span> On the top is our navigation bar. This lets us run the program, select a simulator type or a connected phone. On the right we have two sets of three buttons. Mess around with these and see how they show and hide certain parts of Xcode.  </span></p>
+                        <img class="" src="../assets/images/Tutorial/FirstTutorial/screen7.png" style="width:100%">
+                        <h1 id="AddingALabel">Adding A Label</h1>
+                        <p><span> Let us first add a label to our view. On attribute inspector on the right scroll through the objects and find a label. Or type in the search field on the bottom of the box.  </span></p>
+                        <p><span> When you find the label click and drag it into our view. Rename it something like "Hi There!"</span></p>
+                        <p><span> Now go to the navigation bar and click run once more. </span></p>
+                        <p><span>  Awesome! You should now have a label appear on the virtual phone that shows the label!</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+        <div class="row " data-wow-delay="0.2s">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <div class="w3-content" style="max-width:1200px">
+                    <img class="mySlides" src="../assets/images/Tutorial/FirstTutorial/screen8.png" style="width:100%">
+                    <img class="mySlides" src="../assets/images/Tutorial/FirstTutorial/screen9.png" style="width:100%">
+                    <img class="mySlides" src="../assets/images/Tutorial/FirstTutorial/screen10.png" style="width:100%">
+                    <div class="w3-row-padding w3-section">
+                        <div class="w3-col s4">
+                            <img class="demo w3-opacity w3-hover-opacity-off" src="../assets/images/Tutorial/FirstTutorial/screen8.png" style="width:100%"
+                                onclick="currentDiv(6)">
+                        </div>
+                        <div class="w3-col s4">
+                            <img class="demo w3-opacity w3-hover-opacity-off" src="../assets/images/Tutorial/FirstTutorial/screen9.png" style="width:100%"
+                                onclick="currentDiv(7)">
+                        </div>
+                        <div class="w3-col s4">
+                            <img class="demo w3-opacity w3-hover-opacity-off" src="../assets/images/Tutorial/FirstTutorial/screen10.png" style="width:100%"
+                                onclick="currentDiv(8)">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+        <div class="row" data-wow-delay="0.2s">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <div class="pitch-content">
+                    <div class="howItWorks">
+                        <h1 id="ConnectingTheLabel">Connecting The Label</h1>
+                        <p><span> Next we need to add some functionality to the label! Let's connect the label to our code and change it programatically. </span></p>
+                        <p><span> First up, go to the file inspector on the left and choose Main.storyboard. Once we are in this file click on the top bar of the virtual screen so that it is selected.</span></p>
+                        <p><span> Next, Go to the navigation bar and on the right side there should be an icon that looks like two circles. Click this and a new window showing code should appear next to your Storyboard. </span></p>
+                        <p><span> This button shows a "context aware" window. So when you selected that virutal screen it knew to open this file. If it doesn't connect to the right file you can manually change it by selecting where it says Automatic > ViewController.swift </span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+        <div class="row " data-wow-delay="0.2s">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <div class="w3-content" style="max-width:1200px">
+                    <img class="mySlides" src="../assets/images/Tutorial/FirstTutorial/screen11.png" style="width:100%">
+                    <img class="mySlides" src="../assets/images/Tutorial/FirstTutorial/screen12.png" style="width:100%">
+                    <img class="mySlides" src="../assets/images/Tutorial/FirstTutorial/screen13.png" style="width:100%">
+                    <div class="w3-row-padding w3-section">
+                        <div class="w3-col s4">
+                            <img class="demo w3-opacity w3-hover-opacity-off" src="../assets/images/Tutorial/FirstTutorial/screen11.png" style="width:100%"
+                                onclick="currentDiv(9)">
+                        </div>
+                        <div class="w3-col s4">
+                            <img class="demo w3-opacity w3-hover-opacity-off" src="../assets/images/Tutorial/FirstTutorial/screen12.png" style="width:100%"
+                                onclick="currentDiv(10)">
+                        </div>
+                        <div class="w3-col s4">
+                            <img class="demo w3-opacity w3-hover-opacity-off" src="../assets/images/Tutorial/FirstTutorial/screen13.png" style="width:100%"
+                                onclick="currentDiv(11)">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+        <div class="row" data-wow-delay="0.2s">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <div class="pitch-content">
+                    <div class="howItWorks">
+                        <p><span> Now hold down the control key, click and drag from the label over to the file. Release when you are inside the view controller class but oustide any of the methods.  </span></p>
+                        <p><span> A popup should appear allowing you to name the outlet. For this label lets call it "nameLabel". A few options are in the popup but we will not change any of them at this point.</span></p>
+                        <ul>
+                            <li> • Connection: We can create Outlets and Actions by doing the control drag. Outlets will create
+                                a reference to the object where an action is used for buttons and interations.</li>
+                            <li> • Object: The object that we are attaching to, in this case we are attaching to our ViewController
+                                class
+                            </li>
+                            <li> • Name: Specify a name so that later on we can reference and change properties on the label</li>
+                            <li> • Type: You can change the class of the label here. </li>
+                            <li> • Storage: This is a more advanced property telling the computer if an object needs to stay around
+                                (strong) or dissapear (weak) during different types of activity </li>
+                        </ul>
+                        <p><span> Next up lets change the label programatically when the app runs. To do this we will add the code </span></p>
+                        <ul>
+                            <li> nameLabel = "Hi Johnny"</li>
+                        </ul>
+                        <p><span> inside the "viewDidLoad" method. This is a lifecycle method that will run every time the view is initally loaded in the app. There are other lifecycle methods used at different times but we will get to those later. </span></p>
+                        <p><span> Now hit run once again and see the new text on the phone! </span></p>
+                        <p><span> If the text is cut off on the phone screen go back to the storyboard and click on the label. Click and drag one of the squares to enlarge the label and run the app again!</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+        <div class="row " data-wow-delay="0.2s">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <div class="w3-content" style="max-width:1200px">
+                    <img class="mySlides" src="../assets/images/Tutorial/FirstTutorial/screen14.png" style="width:100%">
+                    <img class="mySlides" src="../assets/images/Tutorial/FirstTutorial/screen15.png" style="width:100%">
+                    <img class="mySlides" src="../assets/images/Tutorial/FirstTutorial/screen16.png" style="width:100%">
+                    <img class="mySlides" src="../assets/images/Tutorial/FirstTutorial/screen17.png" style="width:100%">
+                    <img class="mySlides" src="../assets/images/Tutorial/FirstTutorial/screen18.png" style="width:100%">
+                    <div class="w3-row-padding w3-section">
+                        <div class="w3-col s2">
+                            <img class="demo w3-opacity w3-hover-opacity-off" src="../assets/images/Tutorial/FirstTutorial/screen14.png" style="width:100%"
+                                onclick="currentDiv(12)">
+                        </div>
+                        <div class="w3-col s2">
+                            <img class="demo w3-opacity w3-hover-opacity-off" src="../assets/images/Tutorial/FirstTutorial/screen15.png" style="width:100%"
+                                onclick="currentDiv(13)">
+                        </div>
+                        <div class="w3-col s2">
+                            <img class="demo w3-opacity w3-hover-opacity-off" src="../assets/images/Tutorial/FirstTutorial/screen16.png" style="width:100%"
+                                onclick="currentDiv(14)">
+                        </div>
+                        <div class="w3-col s2">
+                            <img class="demo w3-opacity w3-hover-opacity-off" src="../assets/images/Tutorial/FirstTutorial/screen17.png" style="width:100%"
+                                onclick="currentDiv(15)">
+                        </div>
+                        <div class="w3-col s2">
+                            <img class="demo w3-opacity w3-hover-opacity-off" src="../assets/images/Tutorial/FirstTutorial/screen18.png" style="width:100%"
+                                onclick="currentDiv(16)">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+        <div class="row" data-wow-delay="0.2s" id="HalfwayThere!">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <div class="pitch-content">
+                    <div class="howItWorks">
+                        <h1> Halfway there! Connecting a Button </h1>
+                        <p><span> The hard part is out of the way. Next up we are going to add a single button to change the displayed text on the label!  </span></p>
+                        <p><span> Adding the button uses all the same techniques that we used for adding the label.</span></p>
+                        <p><span>The process of adding objects we will use over and over. Soon it will become muscle memory adding and connecting objects to your views. </a> </span></p>
+                        <ul>
+                            <li> Find the button object in the attribute inspector on the right. </li>
+                            <li> click and drag the button object onto the screen. </li>
+                            <li> click the assitant editor button on the top right of the nav bar</li>
+                            <li> control click drag the button to the view to create an outlet </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+        <div class="row" data-wow-delay="0.2s" id="ButtonConnections">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <div class="pitch-content">
+                    <div class="howItWorks">
+                        <h1> Button Actions </h1>
+                        <p><span> At this point we should have connected an outlet from out button to our view. This is great if we need to reference the button. But what about a button press?  </span></p>
+                        <p><span> For this we will follow the same process we use to connect the label before with one difference. Instead of dragging above the "viewDidLoad" method click and drag below the two methods. A screenshot is below. </span></p>
+                        <p><span> Now the popup that appears asking for us to specify a name and other properties, instead of an outlet we want to switch to an action. This will present us with a different set of properties to change.  </span></p>
+                        <p><span> Create a name for our new method, "buttonPress" will work. And change the type to "touchUpInside" which will allow the trigger of the button to be when the finger is lifted from inside the button. </span></p>
+                        <p><span> Hit run and you should see a label an a button on the screen! </span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+        <div class="row " data-wow-delay="0.2s">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <div class="w3-content" style="max-width:1200px">
+                    <img class="mySlides" src="../assets/images/Tutorial/FirstTutorial/screen19.png" style="width:100%">
+                    <img class="mySlides" src="../assets/images/Tutorial/FirstTutorial/screen20.png" style="width:100%">
+                    <img class="mySlides" src="../assets/images/Tutorial/FirstTutorial/screen21.png" style="width:100%">
+                    <div class="w3-row-padding w3-section">
+                        <div class="w3-col s4">
+                            <img class="demo w3-opacity w3-hover-opacity-off" src="../assets/images/Tutorial/FirstTutorial/screen19.png" style="width:100%"
+                                onclick="currentDiv(17)">
+                        </div>
+                        <div class="w3-col s4">
+                            <img class="demo w3-opacity w3-hover-opacity-off" src="../assets/images/Tutorial/FirstTutorial/screen20.png" style="width:100%"
+                                onclick="currentDiv(18)">
+                        </div>
+                        <div class="w3-col s4">
+                            <img class="demo w3-opacity w3-hover-opacity-off" src="../assets/images/Tutorial/FirstTutorial/screen21.png" style="width:100%"
+                                onclick="currentDiv(19)">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+        <div class="row" data-wow-delay="0.2s" id="ButtonFunctionality">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <div class="pitch-content">
+                    <div class="howItWorks">
+                        <h1> Adding functionality </h1>
+                        <p><span> We are so close! Next up we need to add code so that our button can change the labels text. </span></p>
+                        <p><span> To do this we will enter the following code inside the action method we just created in the previous step.</span></p>
+                        <ul>
+                            <li> nameLabel.text = "The Button Works!" </li>
+                        </ul>
+                        <p><span> Just like before we are changing the text of the label. But the difference now is that this specific code will not be called until you press on that button. </span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+         <div class="row " data-wow-delay="0.2s">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <div class="w3-content" style="max-width:1200px">
+                    <img class="mySlides" src="../assets/images/Tutorial/FirstTutorial/screen22.png" style="width:100%">
+                    <div class="w3-row-padding w3-section">
+                        <div class="w3-col s4">
+                            <img class="demo w3-opacity w3-hover-opacity-off" src="../assets/images/Tutorial/FirstTutorial/screen22.png" style="width:100%"
+                                onclick="currentDiv(20)">
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+        <div class="row" data-wow-delay="0.2s" id="Complete">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <div class="pitch-content">
+                    <div class="howItWorks">
+                        <h1> Complete! </h1>
+                        <p><span> You did it! You made your first app. Even something this simple is incredible.</span></p>
+                        <p><span> These little steps that you completed are the building blocks of what goes into making a large application like facebook or instagram. Repeated thousands of times with different objects and connects makes very advanced apps.</span></p>
+                        <p><span> Keep learing and check out the Second Tutorial. It will build upon what you just created and show you how to use Autolayout, Arrays for cycling through many different names using only a single button.</span></p>
+                                           <p><span> (    Ill make step 2 tomorrow )</span></p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+        
+    </div>
+    </div>
+    <!-- Wrapper-->
+    <!-- Jquery and Js Plugins -->
+    <script type="text/javascript" src="../assets/js/jquery-2.1.1.js"></script>
+    <script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../assets/js/plugins.js"></script>
+    <script type="text/javascript" src="../assets/js/custom.js"></script>
+    <script type="text/javascript" src="//use.typekit.net/mka8twg.js"></script>
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function currentDiv(n) {
+            showDivs(slideIndex = n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            if (n > x.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = x.length
+            }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+            }
+            x[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " w3-opacity-off";
+        }
+    </script>
+</body>
+
+</html>
