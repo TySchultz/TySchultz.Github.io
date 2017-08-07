@@ -1,0 +1,78 @@
+{
+    "stories": [
+
+        {
+            "type": "Other",
+            "title": "Jon Stewart’s first stand-up special in 20 years will air on HBO",
+            "bodyOne": "Jon Stewart will be performing his first recorded stand-up comedy special in more than 20 years for HBO, the cable network announced this evening. The special doesn’t have a name, date, or location yet, but it will be Stewart’s first time performing traditional stand-up since his HBO special, “Jon Stewart: Unleavened,” all the way back in 1996. Stewart took his most notable job as host of The Daily Show in 1999, performing there for 16 years and shepherding it through its meteoric growth and success as the premier nightly political commentary and comedy program in the US.",
+            "bodyTwo": "“I’m really thrilled to be able to return to stand-up on HBO,” Stewart said in a statement. ”They’ve always set the standard for great stand-up specials. Plus, I can finally use up the last of the Saddam Hussein jokes left over from my first special.” Stewart will also host HBO’s “Night of Too Many Stars,” a benefit show at New York’s Madison Square Garden on November 18th for the non-profit organization NEXT for Autism.",
+            "blockQuote": "“I’m really thrilled to be able to return to stand-up on HBO,” ",
+            "linkTitle": "The Verge",
+            "linkAddress": "https://www.theverge.com/2017/7/26/16047240/jon-stewart-comedy-stand-up-hbo-20-years",
+            "linkImageAddress": "https://cdn.vox-cdn.com/thumbor/TglFqkV_ccozWBfEbENx3RVoqAE=/0x0:4928x3280/920x613/filters:focal(2070x1246:2858x2034)/cdn.vox-cdn.com/uploads/chorus_image/image/55913223/620173858.0.jpg"
+        }, {
+            "type": "Politics",
+            "title": "Foxconn Says It Plans to Build Factory in Wisconsin, Adding 3,000 Jobs",
+            "bodyOne": "Foxconn, the Taiwanese electronics supplier for Apple and other tech giants, said Wednesday it would open its first major American factory in Wisconsin, a boost both for the battleground state’s economy and the Trump administration’s efforts to bolster domestic manufacturing. <br><br>White House officials noted President Trump’s direct negotiations with Foxconn for the project, which they said would create at least 3,000 jobs and represent a $10 billion investment.",
+            "bodyTwo": "The new factory, which would produce flat-panel display screens for televisions and other consumer electronics, could raise Wisconsin’s profile in advanced manufacturing. Older industrial firms in the state, like Harley-Davidson in Milwaukee, have struggled recently, with the motorcycle maker saying last week that it planned to lay off 180 workers.",
+            "blockQuote": "\"Foxconn has a history of talking big and not necessarily delivering on their commitments.\"",
+            "linkTitle": "NY Times",
+            "linkAddress": "https://www.nytimes.com/2017/07/26/business/foxconn-factory-wisconsin-jobs.html",
+            "linkImageAddress": "https://static01.nyt.com/images/2017/07/27/business/27FOXCONN1-1501107898514/27FOXCONN1-1501107898514-master768.jpg"
+        }, {
+            "type": "World",
+            "title": "White House warns of \"end of democracy in Venezuela\" as U.S. imposes sanctions",
+            "bodyOne": "Venezuela's socialist President Nicolas Maduro established the controversial National Constituent Assembly by decree amid a growing political and humanitarian crisis. <br><br>In a statement, Treasury Secretary Steven Mnuchin threatened further sanctions against anyone elected to the National Constituent Assembly.<br><br>During a briefing with reporters on Wednesday outlining the sanctions, a senior White House official called the upcoming election a \"Critical line that if crossed could be the end of democracy in Venezuela.\"",
+            "bodyTwo": "On Twitter shortly after the sanctions were announced,Maduro retweeted an interview with RT in which he said he will not suspend the election,slatedfor Sunday.",
+            "blockQuote": "On July 16,over 7 million Venezuelans voted overwhelmingly against establishing the assembly in a symbolic referendum called by the opposition ",
+            "linkTitle": "CBS News ",
+            "linkAddress": "http: //www.cbsnews.com/news/white-house-warns-of-end-of-democracy-in-venezuela-as-u-s-imposes-sanctions/?ftag=CNM-00-10aac3a",
+            "linkImageAddress": "http://cbsnews2.cbsistatic.com/hub/i/r/2017/07/26/fd716995-f565-4ca1-a4c8-fd7688d46eb4/resize/620x/15b52d7e2ccdeafd017eba387279e938/gettyimages-823131510.jpg"
+        }, {
+            "type": "Politics",
+            "title": "Trump urged to use recess appointment to replace Sessions -- is that possible?",
+            "bodyOne": "Is President Donald Trump trying to force out Jeff Sessions as attorney general so he can \"recess appoint\" someone to the job who would fire Justice Department Special Counsel Robert Mueller?<br><br>Sources familiar with the President's thinking tell CNN that he is being urged by some associates that a recess appointment is an option worth pursuing in order to avoid a messy confirmation process in the short term.",
+            "bodyTwo": "Although there are multiple political and procedural road blocks, the theory, if he could find a way to pull it off, would be to install a new attorney general while the Senate is in recess, which would allow that person to stay in place through 2018.<br><br>A new attorney general might be willing to more aggressively oversee Mueller's probe into the Trump campaign's ties to Russia or fire the special counsel outright, as Trump has suggested he wants.",
+            "blockQuote": "A new attorney general might be willing to more aggressively oversee Mueller's probe",
+            "linkTitle": "CNN",
+            "linkAddress": "http://www.cnn.com/2017/07/26/politics/recess-appointment-sessions-replacement/index.html",
+            "linkImageAddress": "https://static01.nyt.com/images/2017/07/27/us/27dc-qanda/merlin-to-scoop-123794813-140547-master768.jpg"
+        }, {
+            "type": "Politics",
+            "title": "Allies Warn Trump of Conservative Revolt Unless He Backs Off Sessions",
+            "bodyOne": "The persistent presidential barrage against Mr. Sessions \"Says more about President Trump than it does Attorney General Sessions, and to me, it's a sign of great weakness on the part of President Trump,\" said Senator Lindsey Graham, Republican of South Carolina. The president's pique at Mr. Sessions stems from the attorney general's decision to step aside from overseeing the investigation into Russia's interference in last year's election and any possible ties to Mr. Trump's campaign team because he had been a top campaign surrogate and met with the Russian ambassador himself.",
+            "bodyTwo ": "\"Why didn't A.G. Sessions replace Acting FBI Director Andrew McCabe, a Comey friend who was in charge of Clinton investigation but got big dollars for his wife's political run from Hillary Clinton and her representatives,\" Mr. Trump wrote on Twitter.",
+            "blockQuote": "Mr. Trump has not spoken with Mr. Sessions since the president's public complaints began a week ago.",
+            "linkTitle": "NY Times",
+            "linkAddress": "https://www.nytimes.com/2017/07/26/us/politics/white-house-aides-think-trump-will-let-sessions-stay-for-now.html",
+            "linkImageAddress": "http://i2.cdn.cnn.com/cnnnext/dam/assets/170720111816-01-jeff-sessions-presser-0720-exlarge-169.jpg"
+        }, {
+            "type": "Sports",
+            "title": "Chargers pick up QB Cardale Jones, send conditional pick to Bills",
+            "bodyOne": "The Los Angeles Chargers have acquired Bills second-year quarterback Cardale Jones in a trade that sends a conditional draft pick back to Buffalo.<br><br>Jones appeared in only one game as a rookie last season for the Bills, completing 6 of 11 passes for 96 yards in a Week 17 loss to the New York Jets. Jones also is joining ex-Buckeyes teammates Joey Bosa and Joshua Perry in Los Angeles.",
+            "bodyTwo": "",
+            "blockQuote": "Jones appeared in only one game as a rookie last season for the Bills",
+            "linkTitle": "ESPN",
+            "linkAddress": "http://www.espn.com/nfl/story/_/id/20165441/los-angeles-chargers-get-qb-cardale-jones-trade-buffalo-bills",
+            "linkImageAddress": "http://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2017%2F0101%2Fr167622_1296x729_16%2D9.jpg&w=1006&h=566&scale=crop&cquality=80&location=origin"
+        }, {
+            "type": "Sports",
+            "title": "Chargers pick up QB Cardale Jones, send conditional pick to Bills",
+            "bodyOne": "The Los Angeles Chargers have acquired Bills second-year quarterback Cardale Jones in a trade that sends a conditional draft pick back to Buffalo.<br><br>Jones appeared in only one game as a rookie last season for the Bills, completing 6 of 11 passes for 96 yards in a Week 17 loss to the New York Jets. Jones also is joining ex-Buckeyes teammates Joey Bosa and Joshua Perry in Los Angeles.",
+            "bodyTwo": "",
+            "blockQuote": "Jones appeared in only one game as a rookie last season for the Bills",
+            "linkTitle": "ESPN",
+            "linkAddress": "http://www.espn.com/nfl/story/_/id/20165441/los-angeles-chargers-get-qb-cardale-jones-trade-buffalo-bills",
+            "linkImageAddress": "http://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2017%2F0101%2Fr167622_1296x729_16%2D9.jpg&w=1006&h=566&scale=crop&cquality=80&location=origin"
+        }, {
+            "type": "Other",
+            "title": "Spinning Ohio State fair ride breaks apart; 1 Dead ",
+            "bodyOne": "A swinging and spinning amusement park ride called the Fire Ball broke apart on the opening day of the Ohio State Fair on Wednesday, hurtling people through the air, killing at least one and injuring seven others. The man who was killed was one of several people who were thrown when the ride malfunctioned, Columbus Fire Battalion Chief Steve Martin said earlier.",
+            "bodyTwo": "Dramatic video captured by a bystander shows the ride swinging back and forth like a pendulum and spinning in the air when it crashes into something and part of the ride flies off, throwing riders to the ground.",
+            "blockQuote": "40 feet above the midway while spinning them at 13 revolutions per minute",
+            "linkTitle": "Associated Press",
+            "linkAddress": "http://hosted.ap.org/dynamic/stories/U/US_STATE_FAIR_RIDE_MALFUNCTION_OHOL-?SITE=AP&SECTION=HOME&TEMPLATE=DEFAULT&CTIME=2017-07-26-23-40-37",
+            "linkImageAddress": "http://a57.foxnews.com/images.foxnews.com/content/fox-news/us/2017/07/27/kasich-orders-rides-shut-down-after-deadly-ohio-state-fair-accident/_jcr_content/par/featured_image/media-0.img.jpg/876/493/1501115328663.jpg?ve=1&tl=1"
+        }
+    ]
+}

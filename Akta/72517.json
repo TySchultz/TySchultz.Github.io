@@ -1,0 +1,68 @@
+
+{
+    "stories": [
+        
+                {
+                    "type":      "Sports",
+                    "title":     "Brain injury found in 99 percent of donated brains of NFL players in new study",
+                    "body":      "Brain damage was diagnosed in 87 percent of donated brains of 202 football players, including all but one of 111 brains of National Football League athletes.<br><br>In today's study scientists examined the brains of 202 former football players to see if they showed the physiological signs of CTE. They also talked to relatives to gather more information about the players, like whether they were known to have suffered head trauma in the past, and their athletic records.<br><br>The players had an average of 15 years playing football, and the median age at death was 66.",
+                    "linkTitle": "The Verge",
+                    "link":      "https://www.theverge.com/2017/7/25/16025146/chronic-traumatic-encephalopathy-football-cognition-health",
+                    "linkImage": "https://cdn.vox-cdn.com/thumbor/dxxG4Ngkn6fKHKoutHK2R7N266A=/0x0:1024x694/1820x1213/filters:focal(333x257:495x419)/cdn.vox-cdn.com/uploads/chorus_image/image/55872629/football.0.jpg"
+
+                }, 
+                    {
+                    "type":      "Politics",
+                    "title":     "Sen, John McCain returned from Arizona to vote on Healthcare bill",
+                    "body":      "In a dramatic moment, Sen. John McCain returned from Arizona to applause from fellow senators. He cast a necessary Republican vote for the motion after two GOP senators -- Susan Collins and Lisa Murkowski -- sided with all Democrats in opposition.<br><br> With Vice President Mike Pence casting a tie-breaking vote, Republicans moved forward on health care reform Tuesday as the Senate successfully passed a key motion to proceed to debate on repealing and possibly replacing Obamacare.<br><br>Speaking at the White House just minutes after the vote, President Donald Trump thanked Senate Republicans, saying, \"now we move forward with truly great health care for the American people, we look forward to that. This was a big step.\"",
+                    "linkTitle": "CNN",
+                    "link":      "http://www.cnn.com/2017/07/25/politics/senate-health-care-vote/index.html",
+                    "linkImage": "https://s.wsj.net/public/resources/images/BN-UK634_MCCAIN_M_20170725153152.jpg"
+
+                }, 
+                    {
+                    "type":      "Tech",
+                    "title":     "PRESCRIPTION VIDEO GAMES MAY BE THE FUTURE OF MEDICINE",
+                    "body":      "“Brain-training” games have been a controversial topic in recent years, especially after a group of scientists and researchers published an open letter in 2014 saying there is “very little evidence” that training your brain in one area or on one task offers improvement in other areas of cognitive function. Shortly afterward, another group of scientists wrote a rebuttal to that, claiming that a “substantial and growing body of evidence shows that certain cognitive-training regimens can significantly improve cognitive function, including in ways that generalize to everyday life.”<br><br>Which is what makes the efforts of a company called Akili — along with the University of California, San Fransisco’s Neuroscape lab — so interesting. Akili is a Boston-based tech company that has used Neuroscape’s core technology to develop a mobile game called Project: EVO. The goal is make Project: EVO so powerful, that it could potentially help treat children with ADHD — as a prescription-based video game.",
+                    "linkTitle": "The Verge",
+                    "link":      "https://www.theverge.com/2017/7/25/16019760/prescription-video-games-brain-next-level-video",
+                    "linkImage": "https://cdn.vox-cdn.com/thumbor/k5wkHjFG9F5Hk-L3EJ45gWovjJ8=/800x0/filters:no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/8906891/jbareham_170724_1868_0002.jpg"
+
+                }, 
+                    {
+                    "type":      "Tech",
+                    "title":     "Mark Zuckerberg and Elon Musk think differently about AI",
+                    "body":      "Great minds don’t always think alike.<br><br> Tesla and SpaceX CEO Elon Musk, who isn’t afraid to speak his mind, shared some thoughts early Tuesday morning via Twitter that essentially bashed Mark Zuckerberg’s understanding of artificial intelligence, the kind of technology that helps computers think more like humans.<br><br>Facebook and other tech giants are scrambling to build this kind of technology, and Zuckerberg even built an AI assistant to help control his Palo Alto home. Musk, on the other hand, thinks AI could ultimately destroy mankind and send everyone scrambling to Mars to avoid machine overlords.",
+                    "linkTitle": "Recode",
+                    "link":      "https://www.recode.net/2017/7/25/16026184/mark-zuckerberg-artificial-intelligence-elon-musk-ai-argument-twitter",
+                    "linkImage": "https://cdn.vox-cdn.com/thumbor/sBiGrCDOY-oSzR1C1XymOtzR5xM=/0x0:693x457/920x613/filters:focal(292x174:402x284)/cdn.vox-cdn.com/uploads/chorus_image/image/55876041/Screen_Shot_2017_07_25_at_9.40.24_AM.0.png"
+                }, 
+                    {
+                    "type":      "Business",
+                    "title":     "More than 2,500 products subject to shrinkflation, says ONS",
+                    "body":      "As many as 2,529 products have shrunk in size over the past five years, but are being sold for the same price, official figures show.<br><br>At the same time the ONS said 614 products had got larger between 2012 and 2017. <br><br>In the category of sugar, jam, syrups chocolate and confectionery, the rate of inflation when adjusted for shrinking products was significantly higher. Since 2012, the inflation rate for products such as chocolate was actually 1.22 percentage points higher, when the smaller size was taken into account.",
+                    "linkTitle": "BBC",
+                    "link":      "http://www.bbc.com/news/business-40703866",
+                    "linkImage": "https://ichef-1.bbci.co.uk/news/660/cpsprodpb/E21D/production/_97058875_andrex2_976.jpg"
+
+                }, 
+                    {
+                    "type":      "World",
+                    "title":     "US ambassador reports progress on new North Korea sanction",
+                    "body":      "The United States and China are making progress on a new U.N. resolution that would impose additional sanctions against North Korea following its test of an intercontinental ballistic missile, U.S. Ambassador Nikki Haley said Tuesday.<br><br>The U.S. gave China a proposed resolution several weeks ago, and Haley told reporters that China has been negotiating with its close ally Russia on possible new sanctions.<br><br>Earlier this month she told the Security Council that if it is united, the international community can cut off major sources of hard currency to North Korea, restrict oil to its military and weapons programs, increase air and maritime restrictions and hold senior officials accountable.",
+                    "linkTitle": "Associated Press",
+                    "link":      "https://www.apnews.com/0a83109c8f9948488556cf86f4a59eb8/US-ambassador-reports-progress-on-new-North-Korea-sanctions",
+                    "linkImage": "https://storage.googleapis.com/afs-prod/media/media:39648c093af24dcfaacd5d8c5d6e0309/800.jpeg"
+
+                }, 
+                    {
+                    "type":      "Politics",
+                    "title":     "Trump Steps Up Attacks on His Own Attorney General",
+                    "body":      "On Monday, Mr. Trump called Mr. Sessions \"Beleaguered\" in a tweet, raising questions about whether Mr. Sessions would resign.<br><br>If Mr. Sessions were to resign or be fired, Mr. Trump could appoint a successor during the congressional recess who would not face Senate inquiries into his or her position on recusal and could take over, at least temporarily, without a confirmation vote.",
+                    "linkTitle": "NYTimes",
+                    "link":      "https://www.nytimes.com/2017/07/25/us/politics/trump-attacks-own-attorney-general-jeff-sessions.html",
+                    "linkImage": "http://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1440,w_2560,x_0,y_0/dpr_2.0/c_limit,w_740/fl_lossy,q_auto/v1500997982/170725-sessions-trump-tease_ssnilb"
+
+                }
+    ]
+}

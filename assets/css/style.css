@@ -158,7 +158,7 @@ table {
 }
 
 div {
-	background-color: #FBFEFE
+	background-color: rgba(255, 255, 255, 0.0);;
 }
 
 
@@ -197,20 +197,20 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: Lato;
+	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 p {
-	font-family: Lato;
+	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 ::-moz-selection {
-	color: #FBFEFE;
+	color: rgba(255, 255, 255, 0.0);;
 	background: #3333CC;
 }
 
 ::selection {
-	color: #FBFEFE;
+	color: rgba(255, 255, 255, 0.0);;
 	background: #3333CC;
 }
 
@@ -230,13 +230,13 @@ p {
 
 .error-message {
 	color: #FF3333;
-	font-family: Lato;
+	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 	margin-top: 5px;
 }
 
 .success-message {
 	color: #009900;
-	font-family: Lato;
+	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 	margin-top: 5px;
 }
 
@@ -257,7 +257,7 @@ p {
 	left: 0px;
 	position: fixed;
 	opacity: 1;
-	background-color: #FBFEFE;
+	background-color: rgba(255, 255, 255, 0.0);;
 	z-index: 9999;
 	text-align: center;
 }
@@ -278,7 +278,7 @@ p {
 .logo:hover,
 .logo:focus {
 	text-decoration: none;
-	color: #FBFEFE;
+	color: rgba(255, 255, 255, 0.0);;
 }
 
 
@@ -286,7 +286,7 @@ p {
 
 .navbar {
 	font-size: 15px;
-	font-family: Lato;
+	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 	font-weight: 600;
 	text-transform: capitalize;
 	padding-top: 25px;
@@ -302,7 +302,7 @@ p {
 .navbar-default {
 	transition: all 0.6s ease;
 	border-color: transparent;
-	background-color: #FBFEFE;
+	background-color: rgba(255, 255, 255, 0.0);;
 }
 
 .navbar-default .navbar-toggle {
@@ -353,17 +353,17 @@ p {
 }
 
 .navbar-default .navbar-nav>.active>a {
-	background: #FBFEFE;
+	background: rgba(255, 255, 255, 0.0);;
 	color: #193758;
 }
 
 .navbar-default .navbar-nav>.active>a:hover {
-	background: #FBFEFE;
+	background: rgba(255, 255, 255, 0.0);;
 	color: #333333;
 }
 
 .navbar-default .navbar-nav>.active>a:focus {
-	background: #FBFEFE;
+	background: rgba(255, 255, 255, 0.0);;
 	color: #193758;
 }
 
@@ -383,12 +383,12 @@ p {
 
 .navbar-default .nav-white>li>a:hover {
 	color: #0EA3DD;
-	background-color: #FBFEFE
+	background-color: rgba(255, 255, 255, 0.0);
 }
 
 .navbar-default .navbar-brand.nav-white {
 	padding-top: 14px;
-	color: #FBFEFE;
+	color: rgba(255, 255, 255, 0.0);;
 	font-size: 21px;
 	letter-spacing: 1px;
 	-webkit-transition: 300ms;
@@ -412,7 +412,7 @@ p {
 	.navbar-default .navbar-collapse {
 		text-align: center;
 		border-color: transparent;
-		background-color: #FBFEFE;
+		background-color: rgba(255, 255, 255, 0.0);;
 	}
 	.navbar-default .navbar-collapse {
 		border: 0;
@@ -426,11 +426,11 @@ p {
 		color: #222222;
 	}
 	.navbar-default .navbar-brand {
-		color: #FBFEFE;
+		color: rgba(255, 255, 255, 0.0);;
 		padding: 16px 14px !important;
 	}
 	.navbar-default .navbar-brand.nav-white {
-		color: #FBFEFE;
+		color: rgba(255, 255, 255, 0.0);;
 	}
 	.navbar-default .navbar-toggle .icon-bar {
 		background-color: #111111;
@@ -477,7 +477,7 @@ p {
 }
 
 .navbar-default .nav-white .navbar-toggle .icon-bar {
-	background-color: #FBFEFE;
+	background-color: rgba(255, 255, 255, 0.0);;
 }
 
 .navbar-default.past-main .nav-white .navbar-toggle .icon-bar {
@@ -498,7 +498,7 @@ p {
 
 .hero-section {
 	height: 100%;
-	background: #FBFEFE;
+	background: rgba(255, 255, 255, 0.0);;
 	padding: 140px 0 0 0;
 }
 
@@ -517,20 +517,20 @@ p {
 }
 
 .hero-content p {
-	font-family: Lato;
-	font-size: 15px;
+	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-size: 17px;
 	color: #000000;
-	font-weight: 600;
+	font-weight: 400;
 	line-height: 1.5;
 	margin: 0 0 25px 0;
 }
 
 .btn-action {
-	font-family: Lato;
+	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 	background-color: #13A0DD;
 	border: 1px solid #13A0DD;
 	border-radius: 0;
-	color: #FBFEFE;
+	color: rgba(255, 255, 255, 0.0);;
 	font-size: 13px;
 	font-weight: 600;
 	letter-spacing: 2px;
@@ -551,7 +551,7 @@ p {
 	background: transparent;
 	outline: none;
 	color: #13A0DD;
-	background: #FBFEFE;
+	background: rgba(255, 255, 255, 0.0);;
 	border-color: #13A0DD;
 }
 
@@ -564,7 +564,7 @@ p {
 .product .btn-action:hover,
 .product .btn-action:focus {
 	background: #92714A;
-	color: #FBFEFE;
+	color: rgba(255, 255, 255, 0.0);;
 	border-color: #82714A;
 }
 
@@ -581,12 +581,12 @@ p {
 
 .image-bg .hero-content h1 {
 	font-weight: 600;
-	color: #FBFEFE;
+	color: rgba(255, 255, 255, 0.0);;
 	background-color: #13A0DD;
 }
 
 .image-bg .hero-content p {
-	color: #FBFEFE;
+	color: rgba(255, 255, 255, 0.0);;
 }
 
 
@@ -596,7 +596,7 @@ p {
 
 .pitch {
 	padding: 50px 0 10px 0;
-	background: #FBFEFE;
+	background: rgba(255, 255, 255, 0.0);;
 }
 
 .pitch-intro {
@@ -615,9 +615,9 @@ p {
 }
 
 .pitch-intro p {
-	font-family: Lato;
-	font-size: 15px;
-	font-weight: 300;
+	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-size: 17px;
+	font-weight: 400;
 	line-height: 1.5;
 	color: #000000;
 	letter-spacing: 0;
@@ -634,7 +634,7 @@ p {
 
 .pitch-icon i {
 	font-size: 34px;
-	color: #FBFEFE;
+	color: rgba(255, 255, 255, 0.0);;
 	position: absolute;
 	left: 0;
 	right: 0;
@@ -656,7 +656,7 @@ p {
 }
 
 .pitch-content p {
-	font-family: Lato;
+	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 	font-size: 15px;
 	line-height: 1.5;
 	font-weight: 500;
@@ -705,7 +705,7 @@ p {
 .features .features-list ul li {
 	display: block;
 	margin: 0 0 14px 0;
-	font-family: Lato;
+	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 	font-size: 15px;
 	line-height: 1.2;
 	color: #000000;
@@ -717,7 +717,7 @@ p {
 -----------------------------------------------------*/
 
 .app-features {
-	background: #FBFEFE;
+	background: rgba(255, 255, 255, 0.0);;
 	padding: 40px 0 0px 0;
 	overflow-x: hidden;
 }
@@ -725,15 +725,15 @@ p {
 .app-features h1 {
 	font-size: 24px;
 	font-weight: 600;
-	font-family: Lato;
+	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 	color: #193758;
 	margin: 0 0 10px 0;
 }
 
 .app-features p {
-	font-size: 15px;
-	font-weight: 600;
-	color: #000000;
+	font-size: 17px;
+	font-weight: 400;
+	color: #333333;
 	line-height: 1.4;
 	margin: 10px 0 50px 0;
 }
@@ -773,9 +773,9 @@ p {
 }
 
 .app-features .feature-single p {
-	font-family: Lato;
-	font-size: 15px;
-	color: #000000;
+	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-size: 17px;	
+	color: #333333;
 	line-height: 1.4;
 	margin: 10px 0 0 0;
 }
@@ -809,7 +809,7 @@ p {
 }
 
 .pricing p {
-	font-family: Lato;
+	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 	font-size: 15px;
 	font-weight: 500;
 	color: #444444;
@@ -825,7 +825,7 @@ p {
 }
 
 .pricing .price-tag h2 {
-	font-family: Lato;
+	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 	font-size: 24px;
 	font-weight: 600;
 	color: #000000;
@@ -849,6 +849,7 @@ p {
 	-webkit-transition: 0.5s;
 	-moz-transition: 0.5s;
 	transition: 0.5s;
+	border-radius: 8px;
 }
 
 .img-overlay {
@@ -866,7 +867,7 @@ p {
 }
 
 .aria {
-	background: #FBFEFE;
+	background: rgba(255, 255, 255, 0.0);;
 	padding: 40px 0 10px 0;
 }
 
@@ -880,7 +881,7 @@ p {
 }
 
 .aria h2 {
-		font-family: Poppins;
+		font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 	font-size: 15px;
 	line-height: 18px;
 	font-style: italic;
@@ -893,8 +894,8 @@ p {
 }
 
 .aria p {
-	font-size: 15px;
-	font-weight: 600;
+	font-size: 17px;
+	font-weight: 400;
 }
 
 .title {
@@ -904,8 +905,8 @@ p {
 }
 
 .title p {
-	font-size: 15px;
-	font-weight: 600;
+	font-size: 17px;
+	font-weight: 400;
 }
 
 
@@ -917,17 +918,17 @@ p {
 }
 
 .howItWorks b {
-	color: #323233;
-	font-size: 17px;
+	color: #000000;
+	font-size: 20px;
 	font-weight: 900;
 }
 
 .howItWorks p {
-	font-family: Lato;
-	font-size: 15px;
-	font-weight: 600;
+	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-size: 17px;
+	font-weight: 400;
 	padding-top: 20px;
-	color: #193758;
+	color: #000000;
 	margin-bottom: 1.0rem;
 }
 
@@ -936,7 +937,7 @@ p {
 }
 
 .howItWorks li {
-	font-family: Lato;
+	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 	font-size: 15px;
 	font-weight: 600;
 	padding-top: 20px;
@@ -957,7 +958,7 @@ p {
 }
 
 .contact {
-	background: #FBFEFE;
+	background: rgba(255, 255, 255, 0.0);;
 	padding: 40px 0 20px 0;
 }
 
@@ -982,9 +983,9 @@ p {
 }
 
 .contact p {
-	font-size: 15px;
+	font-size: 17px;
 	text-align: left;
-	font-weight: 600;
+	font-weight: 400;
 	padding-bottom: 20px;
 	text-align: center;
 }
@@ -1002,7 +1003,7 @@ p {
 /* -------- Process Styling ------- */
 
 .process {
-	background: #FBFEFE;
+	background: rgba(255, 255, 255, 0.0);;
 	padding: 40px 0 10px 0;
 }
 
@@ -1046,7 +1047,7 @@ p {
 }
 
 .left h2 {
-	font-family: Lato;
+	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 	font-size: 15px;
 	line-height: 18px;
 	font-style: normal;
@@ -1066,11 +1067,11 @@ p {
 }
 
 .left p {
-	font-family: Lato;
-	font-size: 15px;
+	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-size: 17px;
 	line-height: 18px;
 	font-style: normal;
-	font-weight: 600;
+	font-weight: 400;
 	margin: 0;
 }
 
@@ -1082,7 +1083,7 @@ p {
 	height: 100%;
 	padding-top: 100px;
 	padding-bottom: 100px;
-	background: #FBFEFE;
+	background: rgba(255, 255, 255, 0.0);;
 }
 
 .pricing-intro {
@@ -1097,9 +1098,9 @@ p {
 }
 
 .pricing-intro p {
-	font-size: 15px;
-	color: #303030;
-	font-weight: 600;
+	font-size: 17px;
+	color: #333333;
+	font-weight: 400;
 	line-height: 1.4;
 	letter-spacing: 1px;
 	margin-top: 10px;
@@ -1132,7 +1133,7 @@ p {
 .table-left .pricing-details span,
 .table-right .pricing-details span {
 	display: inline-block;
-	font-family: Lato;
+	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 	font-size: 28px;
 	font-weight: 600;
 	color: #808080;
@@ -1149,9 +1150,9 @@ p {
 
 .table-left .pricing-details p,
 .table-right .pricing-details p {
-	font-family: Lato;
-	font-size: 15px;
-	font-weight: 600;
+	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-size: 17px;
+	font-weight: 400;
 	color: #505050;
 	letter-spacing: 1px;
 	line-height: 1.4;
@@ -1165,7 +1166,7 @@ p {
 
 .table-left .pricing-details li,
 .table-right .pricing-details li {
-	font-family: Lato;
+	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 	font-size: 15px;
 	font-weight: 600;
 	color: #505050;
@@ -1198,7 +1199,7 @@ p {
 /* ----- Detail Section Styling ---*/
 
 .detailSection {
-	background: #FBFEFE;
+	background: rgba(255, 255, 255, 0.0);;
 	margin-top: 150px;
 }
 
@@ -1212,7 +1213,7 @@ p {
 }
 
 .detailSection h2 {
-	font-family: Poppins;
+	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 	font-size: 15px;
 	line-height: 18px;
 	font-style: italic;
@@ -1224,10 +1225,10 @@ p {
 }
 
 .detailSection p {
-	font-family: Lato;
-	font-size: 15px;
+	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-size: 17px;
 	line-height: 1.5;
-	font-weight: 600;
+	font-weight: 400;
 	color: #193758;
 	text-align: left;
 	letter-spacing: 0;
@@ -1235,7 +1236,7 @@ p {
 }
 
 .detailSection p2 {
-	font-family: Lato;
+	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 	font-size: 15px;
 	line-height: 1.5;
 	font-weight: 600;
@@ -1266,7 +1267,7 @@ iframe {
 
 
  .floating-menu {
-    font-family: sans-serif;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     background: #0EA3DD;
     padding: 5px;;
     width: 200px;
@@ -1277,14 +1278,14 @@ iframe {
 	margin-left: -100px;
   }
   .floating-menu p {
-   	font-family: Lato;
+   	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 	font-size: 15px;
 	font-weight: 600;
 	color: #1C3956;
 	margin-bottom: 5px;
   }
   .floating-menu h1 {
-    font-family: Poppins;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 	font-size: 20px;
 	line-height: 18px;
 	text-transform: uppercase;
@@ -1359,22 +1360,22 @@ main header .stripes :nth-child(5) {
 	height: 100%;
 	padding-top: 40px;
 	padding-bottom: 60px;
-	background: #FBFEFE;
+	background: rgba(255, 255, 255, 0.0);;
 }
 
 .footer h1 {
 	font-size: 24px;
 	font-weight: 600;
-	font-family: lato;
+	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 	color: #193758;
 	margin-bottom: 50px;
 }
 
 .footer p {
-	font-family: Lato;
-	font-size: 15px;
+	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-size: 17px;
 	font-style: normal;
-	font-weight: 600;
+	font-weight: 400;
 	padding-top: 20px;
 	color: #193758;
 	margin: 0;
@@ -1397,19 +1398,19 @@ main header .stripes :nth-child(5) {
 	height: 100%;
 	padding-top: 175px;
 	padding-bottom: 30px;
-	background: #FBFEFE;
+	background: rgba(255, 255, 255, 0.0);;
 }
 
 .simpleHeader h1 {
 	font-size: 65px;
-	font-family: 'Rubik', sans-serif;
+	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 	font-weight: 900;
 	letter-spacing: -4px;
 	color: #193758;
 }
 
 .simpleHeader h2 {
-	font-family: Poppins;
+	font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 	font-size: 15px;
 	line-height: 18px;
 	font-style: italic;
@@ -1522,7 +1523,7 @@ main header .stripes :nth-child(5) {
 		margin: 0 0 20px 0;
 	}
 	.hero-content p {
-		font-size: 15px;
+		font-size: 17px;
 	}
 	.about-content h2 {
 		font-size: 38px;
