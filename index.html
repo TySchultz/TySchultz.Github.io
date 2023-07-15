@@ -1,220 +1,200 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="h-100" lang="en">
 
 <head>
   <meta charset="utf-8">
-  <title>The Process</title>
-  <link rel="icon" href="assets/logos/favicon.jpg" type="image/jpg" sizes="16x16">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Blue Bookcase Design">
-  <meta name="keywords" content="Blue Bookcase Design">
-  <link href="../assets/css/style.css" rel="stylesheet" type="text/css" media="all" />
-  <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
-  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7CRoboto%7CJosefin+Sans:100,300,400,500"
-    rel="stylesheet" type="text/css">
-  <!-- Resource style -->
-  <!-- Resource style -->
-  <link href="../assets/css/app-store.css" rel="stylesheet" type="text/css" media="all" />
-  <link href="../assets/css/globalnav.css" rel="stylesheet" type="text/css" media="all" />
-  <link href="../assets/css/global.dist.css" rel="stylesheet" type="text/css" media="all" />
-  <link href="../assets/css/whats-new.css" rel="stylesheet" type="text/css" media="all" />
-  <link href="../assets/css/promote.css" rel="stylesheet" type="text/css" media="all" />
-  <link rel="stylesheet" href="../assets/css/animate.css">
-  <link href="https://fonts.googleapis.com/css?family=Bungee|Montserrat|Rubik:900" rel="stylesheet">
-  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+  <meta name="description" content="A growing collection of ready to use components for the CSS framework Bootstrap 5">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="96x96" href=".t/img/favicon.png">
+  <meta name="author" content="Holger Koenemann">
+  <meta name="generator" content="Eleventy v2.0.0">
+  <meta name="HandheldFriendly" content="true">
+  <title>Stride HTML Template - Frontpage one</title>
+  <link rel="stylesheet" href="css/theme.min.css">
 
-   <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  <style>
+    /* inter-300 - latin */
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 300;
+      font-display: swap;
+      src: local(''),
+        url('./fonts/inter-v12-latin-300.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('./fonts/inter-v12-latin-300.woff') format('woff');
+      /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    }
 
-  ga('create', 'UA-104015968-1', 'auto');
-  ga('send', 'pageview');
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: local(''),
+        url('./fonts/inter-v12-latin-500.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('./fonts/inter-v12-latin-500.woff') format('woff');
+      /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    }
 
-</script>
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: local(''),
+        url('./fonts/inter-v12-latin-700.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('./fonts/inter-v12-latin-700.woff') format('woff');
+      /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    }
+  </style>
+
 </head>
 
-<body>
-  <div class="wrapper ">
+<body data-bs-spy="scroll" data-bs-target="#navScroll">
+
+  <nav id="navScroll" class="navbar navbar-expand-lg navbar-light fixed-top" tabindex="0">
     <div class="container">
-      <nav class="navbar navbar-default navbar-fixed-top wow fadeIn " data-wow-delay="0.0s">
-        <div class="container">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a href="../index.html"><img class="" border="0" src="../assets/images/logoBookcase.png" width="247" height="50"></a>
-          </div>
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav nav-white">
-              <li><a class="page-scroll" href="./Pages/About.html">About</a></li>
-              <li><a class="page-scroll" href="./Pages/HowItWorks.html">How It works</a></li>
-              <li><a class="page-scroll" href="./Pages/OurWork.html">Projects</a></li>
-              <li><a class="page-scroll" href="./Pages/Contact.html">Contact</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <!-- /.navbar-collapse -->
+      <a class="navbar-brand pe-4 fs-4" href="/">
+        <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 612 699" fill="none">
+          <g filter="url(#filter0_d_59_15)">
+            <path d="M64.3437 603.455C55.2942 623.78 36.1043 672.855 23.2495 672.74C22.145 672.73 21.6006 671.669 22.0139 670.645C40.1139 625.784 104.307 326.9 458.891 102.288C227.11 205.713 86.0034 454.451 67.45 501.423C43.8553 395.291 104.181 309.789 104.181 309.789C104.181 309.789 93.0518 354.039 96.4026 383.169C127.658 257.06 175.762 222.127 175.762 222.127C175.762 222.127 159.822 261.202 154.094 287.614C373.233 -53.6748 590.373 25.9259 590.373 25.9259C590.373 25.9259 597.494 126.43 484.271 161.401C502.812 171.364 525.772 162.802 550.306 146.404C499.734 212.683 377.5 240.075 376.594 239.823C408.859 249.066 458.938 235.502 458.938 235.502C458.938 235.502 408.013 289.672 371.377 316.05C338.571 342.427 260.104 363.842 260.104 363.842C295.848 360.973 306.399 367.378 357.418 347.403C357.418 347.403 296.647 419.387 180.556 456.496C219.613 457.557 275.943 435.784 275.943 435.784C275.943 435.784 255.646 466.339 238.084 482.109C193.689 521.976 89.1646 537.046 89.1646 537.046C89.1646 537.046 80.5712 567.007 64.3437 603.455Z" fill="black"/>
+            <path d="M64.3437 603.455C55.2942 623.78 36.1043 672.855 23.2495 672.74C22.145 672.73 21.6006 671.669 22.0139 670.645C40.1139 625.784 104.307 326.9 458.891 102.288C227.11 205.713 86.0034 454.451 67.45 501.423C43.8553 395.291 104.181 309.789 104.181 309.789C104.181 309.789 93.0518 354.039 96.4026 383.169C127.658 257.06 175.762 222.127 175.762 222.127C175.762 222.127 159.822 261.202 154.094 287.614C373.233 -53.6748 590.373 25.9259 590.373 25.9259C590.373 25.9259 597.494 126.43 484.271 161.401C502.812 171.364 525.772 162.802 550.306 146.404C499.734 212.683 377.5 240.075 376.594 239.823C408.859 249.066 458.938 235.502 458.938 235.502C458.938 235.502 408.013 289.672 371.377 316.05C338.571 342.427 260.104 363.842 260.104 363.842C295.848 360.973 306.399 367.378 357.418 347.403C357.418 347.403 296.647 419.387 180.556 456.496C219.613 457.557 275.943 435.784 275.943 435.784C275.943 435.784 255.646 466.339 238.084 482.109C193.689 521.976 89.1646 537.046 89.1646 537.046C89.1646 537.046 80.5712 567.007 64.3437 603.455Z" stroke="black"/>
+          </g>
+          <defs>
+            <filter id="filter0_d_59_15"  filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+              <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+              <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+              <feMorphology radius="1" operator="erode" in="SourceAlpha" result="effect1_dropShadow_59_15"/>
+              <feOffset dy="4"/>
+              <feGaussianBlur stdDeviation="11"/>
+              <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+              <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_59_15"/>
+              <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_59_15" result="shape"/>
+            </filter>
+          </defs>
+        </svg>
+        <span class="ms-1 fw-bolder" style="font-family: serif">Quill</span>
+      </a>
+
+      <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button> -->
+      <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#aboutus">
+              About us
+            </a>
+          </li>
+        </ul>
+      </div> -->
     </div>
-  </div>
-  <!-- /.container-fluid -->
-  <div class="main image-bg" id="main">
-    <!-- Main Section-->
-    <main id="main" class="main" role="main">
-      <section class="section section-today">
-        <div class="section-content">
-          <div class="row">
-            <div class="column large-8 small-12">
-              <div class="copy-wrapper">
-                <strong><h2 class="typography-subsection-headline">Ty Schultz</h2></strong>
-                <h3 class="typography-subsection-headline-sub">User Experience <br>Designer & Developer</h3>
+  </nav>
 
-                <p>The design studio of Ty Schultz. I work with clients, agencies and friends to create great user experiences.</p>
-              </div>
-            </div>
-            <div class="column large-5 large-offset-1 medium-offset-0 small-12 small-offset-0">
-            </div>
+  <main>
+    <div class="w-100 overflow-hidden bg-gray-100" id="top">
+
+      <div class="container position-relative">
+        <div class="col-25 col-lg-8 mt-0 h-100 position-absolute top-0 end-0 bg-cover" data-aos="fade-left"
+          style="background-image: url(img/websiteHeader.png);">
+
+        </div>
+        <div class="row">
+
+          <div class="col-lg-7 py-vh-6 position-relative" data-aos="fade-right">
+            <h1 class="display-1 fw-bold mt-5">Stay on top of the news. Without being overwhelmed.</h1>
+            <p class="lead">News Simplified. One Daily briefing. Summarized Visually.</p>
+            <a href="https://apps.apple.com/us/app/quill-news-digest/id1669557131" class="btn btn-dark btn-xl shadow me-3 rounded-0 my-5">Join Quill</a>
+          </div>
+
+
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="py-vh-5 w-100 overflow-hidden" id="services">
+      <div class="container">
+        <div class="row d-flex justify-content-end">
+          <div class="col-lg-8" data-aos="fade-down">
+            <h2 class="display-6">Quill uses artificial intelligence to summarize the top stories from various sources across the internet to provide you with a succinct and unbiased quick read of the most talked about topics. </h2>
+            <br>
+            <h2 class="display-6">Each story in the collection includes a ‘quick’ read, an extended summary, images, a quote, relevant location, and the option to read individual articles from you source of choice. </h2>
+            <br>
+            <h2 class="display-6">Quill releases a digest once a day, every morning at 8 am that allows you to page through the most important stories on the internet. With Quill, you can be certain you are up-to-date without being overloaded with information.</h2>
+
           </div>
         </div>
-      </section>
-      <section class="section section-today">
-        <div class="section-content">
-          <div class="row">
-            <div class="column large-6 small-12">
-              <div class="copy-wrapper">
-                <h2 class="typography-subsection-headline">Akta Digest</h2>
-                                <h2 class="typography-subsection-headline-sub">Your daily news</h2>
 
-                <p>Today's top global news headlines delivered in quick summaries, twice a day.</p>
-                                            <a href="../Pages/AktaDigest.html"><p class="text-center margin-bottom-small"><span class="violator violater-alt inline-block">See More</span></p></a>
-              </div>
+        <!-- <div class="container py-vh-3 border-top" data-aos="fade" data-aos-delay="200">
+          <div class="row d-flex justify-content-center">
+            <div class="col-12 col-lg-8 text-center">
+              <h3 class="fs-2 fw-light">Stay in touch with our<span class="fw-bold">
+                  monthly and free</span>
+                newsletter!
+              </h3>
             </div>
-            <div class="column large-5 large-offset-1 medium-offset-0 small-12 small-offset-0">
-              <div class="frame-iphone-7" data-hires-status="pending" style="background-image: url(http://bluebookcasedesign.com/assets/images/homePageImages/iphone-7-frame-large_2x.png);">
-                <figure class="image-today" data-figure-id="image-today" data-hires-status="pending" style="background-image:url(http://bluebookcasedesign.com/assets/images/homePageImages/iphoneONETHINGDIGEST.png);"></figure>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="section section-games">
-        <div class="section-content">
-          <div class="row">
-            <div class="column large-6 small-12">
-              <div class="copy-wrapper">
-                <h2 class="typography-subsection-headline">RPAC</h2>
-
-                <p>RPAC is a quick and useful way for students at the Ohio state university to check the schedule of basketball
-                        courts located on campus. Pulling difficult to find data from an OSU recreation center website, the
-                        app presents which courts are available for you to play on at a given time.</p>
-                                            <a href="../Pages/RPAC.html"><p class="text-center margin-bottom-small"><span class="violator violater-alt inline-block">See More</span></p></a>
-
-              </div>
-            </div>
-            <div class="column large-5 large-offset-1 medium-offset-0 small-12 small-offset-0">
-              <div class="frame-iphone-7 frame-games" data-hires-status="pending" style="background-image: url(http://bluebookcasedesign.com/assets/images/homePageImages/iphone-7-frame-large_2x.png);">
-                <figure class="image-games" data-figure-id="image-games" data-hires-status="pending" style="background-image: url(http://bluebookcasedesign.com/assets/images/homePageImages/iphoneRPAC2.png);"></figure>
-              </div>
-              <div class="frame-iphone-7 frame-apps" data-hires-status="pending" style="background-image: url(http://bluebookcasedesign.com/assets/images/homePageImages/iphone-7-frame-large_2x.png);">
-                <figure class="image-apps" data-figure-id="image-apps" data-hires-status="pending" style="background-image: url(http://bluebookcasedesign.com/assets/images/homePageImages/iphoneRPAC.png);"></figure>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="section section-product-page">
-        <div class="section-content">
-          <div class="row">
-            <div class="column large-6 small-12">
-                            <div class="copy-wrapper">
-
-              <h2 class="typography-subsection-headline">PickUp</h2>
-              <p>Pickup is a fantasy sports application. Think draft kings, fan duel, or fantasy football but the whole
-                        season long. The goal is to score as many points as possible by choosing the correct winner of all
-                        the NFL games. Join a league and invite your friends to compete and see who knows the most.</p>
-            
-                                            <a href="../Pages/RPAC.html"><p class="text-center margin-bottom-small"><span class="violator violater-alt inline-block">See More</span></p></a>
-            </div>
-            </div>
-            <div class="column large-5 large-offset-1 medium-offset-0 small-12 small-offset-0">
-              <div class="frame-iphone-7" data-hires-status="pending" style="background-image: url(http://bluebookcasedesign.com/assets/images/homePageImages/iphone-7-frame-large_2x.png);">
-                <figure class="image-product-page" data-figure-id="image-product-page" data-hires-status="pending" style="background-image: url(http://bluebookcasedesign.com/assets/images/homePageImages/iphonePICKUP.png);"></figure>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="section section-in-app-purchases">
-        <div class="section-content">
-          <div class="row">
-            <div class="column large-6 small-12">
-              <div class="copy-wrapper">
-                <h2 class="typography-subsection-headline">Plan-It</h2>
-                                <h2 class="typography-subsection-headline-sub">Student Planner</h2>
-
-                <p>Students need a better and faster way to plan their assignments. Plan-it lets students enter a task within three taps and under 10 seconds to get on with their day.  </p>
-                                            <a href="../Pages/RPAC.html"><p class="text-center margin-bottom-small"><span class="violator violater-alt inline-block">See More</span></p></a>
-              </div>
-            </div>
-            <div class="column large-5 large-offset-1 medium-offset-0 small-12 small-offset-0">
-              <div class="frame-iphone-7" data-hires-status="pending" style="background-image: url(http://bluebookcasedesign.com/assets/images/homePageImages/iphone-7-frame-large_2x.png);">
-                <figure class="image-previews" data-figure-id="image-in-app-purchases" data-hires-status="pending" style="background-image: url(http://bluebookcasedesign.com/assets/images/homePageImages/iphonePLANIT.png);"></figure>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      
-      <section class="section section-overview">
-            <div class="section-content">
-                <div class="row">
-                    <div class="column large-3 large-gutter medium-3  small-12">
-                         <a href="../Pages/About.html"><p class="text-center margin-bottom-small"><span class="violator violater-alt inline-block">About</span></p></a>
-                        
+            <div class="col-12 col-lg-8 text-center">
+              <div class="row">
+                <div class="grouped-inputs border bg-light p-2">
+                  <div class="row">
+                    <div class="col">
+                      <form class="form-floating">
+                        <input type="email" class="form-control p-3" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                      </form>
                     </div>
-                   <div class="column large-3 large-gutter medium-3  small-12">
-                         <a href="../Pages/OurWork.html"><p class="text-center margin-bottom-small"><span class="violator violater-alt inline-block">Projects</span></p></a>
-                      
+                    <div class="col-auto">
+                      <a href="#" class="btn btn-dark py-3 px-5">Subscribe</a>
                     </div>
-                   <div class="column large-3 large-gutter medium-3  small-12">
-                       <a href="../Pages/HowItWorks.html"><p class="text-center margin-bottom-small"><span class="violator violater-alt inline-block">How It works</span></p></a>
-                     
-                    </div>
-
-                     <div class="column large-3 large-gutter medium-3  small-12">
-                       <a href="../Pages/Contact.html"><p class="text-center margin-bottom-small"><span class="violator violater-alt inline-block">Contact Me</span></p></a>
-
-                    </div>
-                   
+                  </div>
                 </div>
-                
+
+              </div>
             </div>
-        </section>
-    </main>
-  
-      <!-- Our Work !-->
-     
-      <!-- our work !-->
-    </div>
-  </div>
-  </div>
-  <!-- Wrapper-->
-  <!-- Jquery and Js Plugins -->
-  <script type="text/javascript" src="assets/js/jquery-2.1.1.js"></script>
-  <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="assets/js/plugins.js"></script>
-  <script type="text/javascript" src="assets/js/custom.js"></script>
-  <script type="text/javascript" src="//use.typekit.net/mka8twg.js"></script>
+          </div>
+        </div> -->
 
+  </main>
 
+  <footer>
+    <div class="container small border-top">
+
+  </footer>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800, // values from 0 to 3000, with step 50ms
+    });
+  </script>
+
+  <script>
+    let scrollpos = window.scrollY
+    const header = document.querySelector(".navbar")
+    const header_height = header.offsetHeight
+
+    const add_class_on_scroll = () => header.classList.add("scrolled", "shadow-sm")
+    const remove_class_on_scroll = () => header.classList.remove("scrolled", "shadow-sm")
+
+    window.addEventListener('scroll', function () {
+      scrollpos = window.scrollY;
+
+      if (scrollpos >= header_height) { add_class_on_scroll() }
+      else { remove_class_on_scroll() }
+
+      console.log(scrollpos)
+    })
+  </script>
 
 </body>
 
