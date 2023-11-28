@@ -145,85 +145,84 @@
       flex: 1;
 
     }
+
+     /* Your existing styles */
+    /* ... */
+
+    /* Responsive styles */
+    @media (max-width: 500px) {
+
+/* Make the container stack elements vertically */
+.container {
+  flex-direction: column;
+}
+
+/* Reset flex properties to take full width */
+.headerColumn,
+.headerDescription,
+.column {
+  flex: none;
+  width: 100%;
+  padding: 10px;
+}
+
+/* Adjust the map for smaller screens */
+.map {
+  height: 250px;
+  /* Make map smaller */
+}
+
+/* Adjust the number for smaller screens */
+.number {
+  font-size: 85px;
+}
+
+/* Stack the legend items vertically on small screens */
+.legendMonth {
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Ensure images in columns are not too wide */
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  /* Adjust height automatically */
+}
+
+/* Set image container to center align the images on smaller screens */
+.image-container {
+  text-align: center;
+}
+}
   </style>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
-  <style>
-    /* Your existing styles */
-    /* ... */
-
-    /* Responsive styles */
-    @media (max-width: 500px) {
-
-      /* Make the container stack elements vertically */
-      .container {
-        flex-direction: column;
-      }
-
-      /* Reset flex properties to take full width */
-      .headerColumn,
-      .headerDescription,
-      .column {
-        flex: none;
-        width: 100%;
-        padding: 10px;
-      }
-
-      /* Adjust the map for smaller screens */
-      .map {
-        height: 250px;
-        /* Make map smaller */
-      }
-
-      /* Adjust the number for smaller screens */
-      .number {
-        font-size: 85px;
-      }
-
-      /* Stack the legend items vertically on small screens */
-      .legendMonth {
-        flex-direction: column;
-        align-items: center;
-      }
-
-      /* Ensure images in columns are not too wide */
-      .image-container img {
-        max-width: 100%;
-        height: auto;
-        /* Adjust height automatically */
-      }
-
-      /* Set image container to center align the images on smaller screens */
-      .image-container {
-        text-align: center;
-      }
-    }
-  </style>
+  
 </head>
 
 <body>
   <div class="container">
     <div class="headerColumn">
-      <div>Friday, Nov 17th</div>
-      <div class="description">Updated: 06:35 AM EST</div>
+  <div>Tuesday, Nov 28th</div>
+  <div class="description">Updated: 03:48 PM </div>
   </div>
-    <div class="headerDescription">
-     
-      <div class="container">
+      <div class="headerDescription">
+      
+        <div class="container">
 
-        <span class="legendMonth">
-          <div class="legend">Jan</div>
-        </span>
-        <span class="legendMonth">
-          <div class="legend">Jul</div>
-        </span>
-      </div>
-      <div class="calendar">
-        <!-- Generate a year's worth of weeks manually or with a server-side language -->
-  <div class="week">
+          <span class="legendMonth">
+            <div class="legend">Jan</div>
+          </span>
+          <span class="legendMonth">
+            <div class="legend">Jul</div>
+          </span>
+        </div>
+        <div class="calendar">
+    <div class="week">
       <!-- Days in Week 1 -->
       <div class="day level-1"></div>
       <div class="day level-1"></div>
@@ -685,19 +684,19 @@
   </div>
   <div class="week">
       <!-- Days in Week 47 -->
-      <div class="day level-4"></div>
-      <div class="day"></div>
-      <div class="day"></div>
-      <div class="day"></div>
-      <div class="day"></div>
-      <div class="day"></div>
-      <div class="day"></div>
+      <div class="day level-1"></div>
+      <div class="day level-1"></div>
+      <div class="day level-1"></div>
+      <div class="day level-1"></div>
+      <div class="day level-1"></div>
+      <div class="day level-1"></div>
+      <div class="day level-1"></div>
   </div>
   <div class="week">
       <!-- Days in Week 48 -->
-      <div class="day"></div>
-      <div class="day"></div>
-      <div class="day"></div>
+      <div class="day level-1"></div>
+      <div class="day level-1"></div>
+      <div class="day level-4"></div>
       <div class="day"></div>
       <div class="day"></div>
       <div class="day"></div>
@@ -744,21 +743,21 @@
       <div class="day"></div>
   </div>
 
-</div>
-</div>
-</div>
-
+        </div>
+        </div>
+        </div>
+        
         <div class="container">
         <div class="column">
             <div class="number">1</div>
         </div>
         <div class="column">
-            <div class="header">Taylor Swift Postpones Rio Concert</div>
-            <div class="description">Taylor Swift postpones her concert in Rio de Janeiro after a fan dies during extreme heat at the previous show.</div>
+            <div class="header">Deteriorating Health System in the Gaza Strip</div>
+            <div class="description">Reports on the deteriorating health system and humanitarian crisis in the Gaza Strip due to war-related damage and lack of resources.</div>
         </div>
         <div class="column">
             <div class="image-container">
-            <img src="https://akns-images.eonline.com/eol_images/Entire_Site/20231018/rs_1200x1200-231118110855-1200-taylor-swift-brazil-cjh-111723.jpg?fit=around%7C1080:1080&output-quality=90&crop=1080:1080;center,top" alt="Taylor Swift Postpones Rio Concert">
+            <img src="https://static.foxnews.com/foxnews.com/content/uploads/2023/11/Smoke-in-Gaza-Strip.jpg" alt="Deteriorating Health System in the Gaza Strip">
             </div>
         </div>
         </div>
@@ -768,12 +767,12 @@
             <div class="number">2</div>
         </div>
         <div class="column">
-            <div class="header">Diddy and Cassie Settle Lawsuit</div>
-            <div class="description">Music producer Sean 'Diddy' Combs and singer Cassie have settled a lawsuit over allegations of abuse and rape.</div>
+            <div class="header">Koch Network Endorses Nikki Haley</div>
+            <div class="description">The Koch brothers' political network, Americans for Prosperity Action, has announced its support for Nikki Haley in the Republican presidential nominating contest, providing her with organizational help and financial resources as she competes against Ron DeSantis and Donald Trump.</div>
         </div>
         <div class="column">
             <div class="image-container">
-            <img src="https://www.hollywoodreporter.com/wp-content/uploads/2023/11/Sean-22Diddy22-Combs-and-Cassie-getty-H-2023.jpg?w=1024" alt="Diddy and Cassie Settle Lawsuit">
+            <img src="https://static.foxnews.com/foxnews.com/content/uploads/2023/11/Nikki-Haley-Newton-Iowa-Fox-Intv-Nov.-17-2023.jpg" alt="Koch Network Endorses Nikki Haley">
             </div>
         </div>
         </div>
@@ -783,12 +782,12 @@
             <div class="number">3</div>
         </div>
         <div class="column">
-            <div class="header">Major Advertisers Boycott X (Twitter)</div>
-            <div class="description">Big brands like Disney, Warner Bros., and Apple are pausing their ads on X (formerly Twitter) after Elon Musk's endorsement of antisemitic content.</div>
+            <div class="header">Students of Palestinian Descent Shot in Vermont</div>
+            <div class="description">Three students of Palestinian descent were shot in Vermont. The authorities are investigating whether the shooting was a hate crime amidst an increase in threats against Jewish, Muslim, and Arab communities in the US since the Israel-Hamas war began.</div>
         </div>
         <div class="column">
             <div class="image-container">
-            <img src="https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2023/08/0/0/GettyImages-1550763049.jpg?ve=1&tl=1" alt="Major Advertisers Boycott X (Twitter)">
+            <img src="https://www.motherjones.com/wp-content/uploads/2023/11/Screen-Shot-2023-11-26-at-3.25.41-PM.png?w=1200&h=630&crop=1" alt="Students of Palestinian Descent Shot in Vermont">
             </div>
         </div>
         </div>
@@ -798,12 +797,12 @@
             <div class="number">4</div>
         </div>
         <div class="column">
-            <div class="header">OpenAI Leadership Shake-up</div>
-            <div class="description">Sam Altman removed as CEO of OpenAI, sparking a wave of board reshuffling and discussions about his potential return.</div>
+            <div class="header">41 Trapped Construction Workers Rescued in India</div>
+            <div class="description">A successful rescue mission has pulled 41 construction workers to safety after being trapped in a collapsed tunnel for 17 days in Uttarakhand, India.</div>
         </div>
         <div class="column">
             <div class="image-container">
-            <img src="https://static.politico.com/49/11/debf14514f1199ea7c0fa16c151b/apec-future-of-ai-21214.jpg" alt="OpenAI Leadership Shake-up">
+            <img src="https://www.aljazeera.com/wp-content/uploads/2023/11/Miners2-1701180903.jpg?resize=1920%2C1440" alt="41 Trapped Construction Workers Rescued in India">
             </div>
         </div>
         </div>
@@ -813,12 +812,12 @@
             <div class="number">5</div>
         </div>
         <div class="column">
-            <div class="header">SpaceX's Starship Test Flight</div>
-            <div class="description">The second test flight of SpaceX's Starship rocket faced challenges and ultimately ended in failure, raising concerns and prompting an investigation.</div>
+            <div class="header">UK Reports First Human Case of H1N2 Swine Flu</div>
+            <div class="description">The UK has detected its first human case of a swine flu strain, sparking concerns from health officials.</div>
         </div>
         <div class="column">
             <div class="image-container">
-            <img src="https://static01.nyt.com/images/2023/11/18/multimedia/18starship-ledeallTOP-mlfh/18starship-ledeallTOP-mlfh-facebookJumbo.jpg" alt="SpaceX's Starship Test Flight">
+            <img src="https://api.time.com/wp-content/uploads/2023/11/swine-flu-3d-rendering.jpg?quality=85" alt="UK Reports First Human Case of H1N2 Swine Flu">
             </div>
         </div>
         </div>
@@ -828,12 +827,12 @@
             <div class="number">6</div>
         </div>
         <div class="column">
-            <div class="header">Gaza-Israel Conflict</div>
-            <div class="description">The ongoing conflict between Gaza and Israel continues to escalate, resulting in a significant impact on the region's residents and infrastructure.</div>
+            <div class="header">Robert De Niro's Unedited Outburst</div>
+            <div class="description">Robert De Niro angrily speaks out about his speech being edited, takes aim at Donald Trump, and accuses Apple of tinkering with his words during the 33rd Gotham Awards.</div>
         </div>
         <div class="column">
             <div class="image-container">
-            <img src="https://i.dailymail.co.uk/1s/2023/11/19/09/77981847-0-image-m-14_1700384558357.jpg" alt="Gaza-Israel Conflict">
+            <img src="https://www.indiewire.com/wp-content/uploads/2023/09/GettyImages-1496776820.jpg" alt="Robert De Niro's Unedited Outburst">
             </div>
         </div>
         </div>
@@ -843,12 +842,12 @@
             <div class="number">7</div>
         </div>
         <div class="column">
-            <div class="header">Colorado Judge Rules on Trump Ballot Eligibility</div>
-            <div class="description">A Colorado judge ruled in favor of former President Donald Trump in a case that sought to prevent him from appearing on the state's primary ballot due to the January 6th insurrection.</div>
+            <div class="header">Merriam-Webster's Word of the Year 2023: 'Authentic'</div>
+            <div class="description">Merriam-Webster has chosen 'Authentic' as the word of the year for 2023 due to its increased popularity and interest driven by discussions about artificial intelligence, celebrity culture, and social media.</div>
         </div>
         <div class="column">
             <div class="image-container">
-            <img src="https://georgiastarnews.com/wp-content/uploads/2023/11/trump-courtroom-blue-tie_840x480.jpg" alt="Colorado Judge Rules on Trump Ballot Eligibility">
+            <img src="https://i.abcnewsfe.com/a/c43d4864-ff8b-4560-9652-343dbe11f7a7/wirestory_a9fea610cb32ed913bc15533acab71cc_16x9.jpg?w=992" alt="Merriam-Webster's Word of the Year 2023: 'Authentic'">
             </div>
         </div>
         </div>
@@ -858,12 +857,12 @@
             <div class="number">8</div>
         </div>
         <div class="column">
-            <div class="header">Israel-Hamas Hostage Agreement</div>
-            <div class="description">A tentative agreement has been reached between Israel, the US, and Hamas to exchange hostages for a five-day pause in fighting.</div>
+            <div class="header">Elon Musk's Visit to Israel</div>
+            <div class="description">Elon Musk's recent controversial trip to Israel amidst accusations of antisemitism and backlash over social media content.</div>
         </div>
         <div class="column">
             <div class="image-container">
-            <img src="https://www.politico.eu/cdn-cgi/image/width=1200,height=630,fit=crop,quality=80,onerror=redirect/wp-content/uploads/2023/11/19/GettyImages-1235180718-scaled.jpg" alt="Israel-Hamas Hostage Agreement">
+            <img src="https://static01.nyt.com/images/2023/11/27/multimedia/27israel-hamas-musk-2-bqwp/27israel-hamas-musk-2-bqwp-facebookJumbo.jpg" alt="Elon Musk's Visit to Israel">
             </div>
         </div>
         </div>
@@ -873,12 +872,12 @@
             <div class="number">9</div>
         </div>
         <div class="column">
-            <div class="header">Ethics Committee Pushes for Expulsion of Rep. George Santos</div>
-            <div class="description">Efforts to remove Rep. George Santos from Congress intensify after the House Ethics Committee chair files a resolution for his expulsion.</div>
+            <div class="header">Virgin Atlantic's Transatlantic SAF Flight</div>
+            <div class="description">Virgin Atlantic operates the first transatlantic flight powered by 100% sustainable aviation fuel, with key industry figures on board.</div>
         </div>
         <div class="column">
             <div class="image-container">
-            <img src="https://www.joemygod.com/wp-content/uploads/2023/11/GeorgeSantosFloorSpeech-1.jpg" alt="Ethics Committee Pushes for Expulsion of Rep. George Santos">
+            <img src="https://i.dailymail.co.uk/1s/2023/11/28/12/78321957-0-image-a-17_1701175148059.jpg" alt="Virgin Atlantic's Transatlantic SAF Flight">
             </div>
         </div>
         </div>
@@ -888,12 +887,12 @@
             <div class="number">10</div>
         </div>
         <div class="column">
-            <div class="header">SNL Weekend Update</div>
-            <div class="description">SNL's Weekend Update pokes fun at Rep. George Santos' illicit spending and panda diplomacy overshadowing a political summit.</div>
+            <div class="header">Sports Illustrated and AI-Generated Content</div>
+            <div class="description">Sports Illustrated faces allegations of publishing articles by fake authors with AI-generated profile pictures, and using AI technology to create content.</div>
         </div>
         <div class="column">
             <div class="image-container">
-            <img src="https://www.rollingstone.com/wp-content/uploads/2023/11/Screen-Shot-2023-11-19-at-1.47.30-AM.png?w=1344&h=659&crop=1" alt="SNL Weekend Update">
+            <img src="https://imagez.tmz.com/image/90/16by9/2023/11/27/90ed1f1d4039468d871522072c81b009_xl.jpg" alt="Sports Illustrated and AI-Generated Content">
             </div>
         </div>
         </div>
@@ -903,81 +902,72 @@
             <div class="number">11</div>
         </div>
         <div class="column">
-            <div class="header">Calls for Cease-fire in Israel-Hamas War</div>
-            <div class="description">Several key figures are urging for a cease-fire in the Israel-Hamas conflict, with divisions among politicians and a growing demand for action.</div>
+            <div class="header">American Journalist Detained in Russia</div>
+            <div class="description">The detention of American Wall Street Journal reporter, Evan Gershkovich, has been extended for the third time in Russia, sparking international outcry.</div>
         </div>
         <div class="column">
             <div class="image-container">
-            <img src="https://images.newrepublic.com/8f5015610626389dc146597f9155f0047c726ce8.jpeg?w=1200&h=630&crop=faces&fit=crop&fm=jpg" alt="Calls for Cease-fire in Israel-Hamas War">
+            <img src="https://www.aljazeera.com/wp-content/uploads/2023/11/2023-11-28T080515Z_1609907683_RC28M4A9X63A_RTRMADP_3_UKRAINE-CRISIS-RUSSIA-WSJ-1701161351.jpg?resize=1920%2C1390" alt="American Journalist Detained in Russia">
             </div>
         </div>
         </div>
         
- <div class="container">
-    <div class="headerColumn" style="font-weight: 600">
-      <div>Dive Deeper</div>
-    
-      <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/38/53/d5/3853d5be-490b-0803-4c73-eda3ab083df0/173811ea-de18-40de-bb54-0651f7a469d8_appStore2.jpg/460x0w.webp"
-          alt="Quill Screenshot" width="230" height="498" style="padding-top: 30px;">
-          <a href="https://apple.co/3O8BPxr" target="_blank">
-            <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
-              alt="Available on the App Store" width="230" height="60" style="padding-top: 30px;">
-          </a>
-    </div>
-    <div class="headerDescription">
-      <div class="description">Want even more? Our iOS app provides you even more details. Top tidbits, wonderful whys, important indviduals, and lucrative locations. </div>
-      <br>
-      <div class="description">Below is an example of a collection within the app. Every day we deliver 6-10 of the top collections from across the web.</div>
-      <br>
-      <hr>
+        <div class="container">
+        <div class="column">
+            <div class="number">12</div>
+        </div>
+        <div class="column">
+            <div class="header">Man Arrested for Disneyland Streaking</div>
+            <div class="description">A man stripped down and streaked at Disneyland's 'It's a Small World' ride, leading to his arrest for indecent exposure and being under the influence of a controlled substance.</div>
+        </div>
+        <div class="column">
+            <div class="image-container">
+            <img src="https://imagez.tmz.com/image/8f/16by9/2023/11/27/8f66f672099e4943968b02e93139efbf_xl.jpg" alt="Man Arrested for Disneyland Streaking">
+            </div>
+        </div>
+        </div>
+        
+   <br>
+    <br>
+     <br>
+    <br>
+  <div class="container">
+      <div class="headerColumn" style="font-weight: 600">
+        <div>Dive Deeper</div>
       
-
-    <h2 class="header">1. Biden and Xi Jinping's Meeting at APEC Summit</h2>
-        <p class="description">President Joe Biden and Chinese President Xi Jinping met at the APEC Summit in San
-            Francisco to discuss efforts to de-escalate tensions and foster cooperation between the two countries.</p>
-
-            <h3 class="secondaryHeader">What:</h3>
-        <ul class="points-list">
-            <li class="description">President Biden and Chinese President Xi Jinping met at the APEC CEO summit in San Francisco.</li>
-            <li class="description" >Both leaders emphasized the need to avoid conflict and competition between their countries.</li>
-            <li class="description">They discussed resuming military communications and cracking down on fentanyl production.</li>
-            <li class="description">The meeting comes in the wake of escalating tensions between the U.S. and China over various issues,
-            including trade, technology, and human rights.</li>
-            <li class="description">Biden and Xi aimed to show a united front despite being global competitors.</li>
+        <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource116/v4/38/53/d5/3853d5be-490b-0803-4c73-eda3ab083df0/173811ea-de18-40de-bb54-0651f7a469d8_appStore2.jpg/460x0w.webp"
+            alt="Quill Screenshot" width="230" height="498" style="padding-top: 30px;">
+            <a href="https://apple.co/3O8BPxr" target="_blank">
+              <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                alt="Available on the App Store" width="230" height="60" style="padding-top: 30px;">
+            </a>
+      </div>
+      <div class="headerDescription">
+        <div class="description">Want even more? Our iOS app provides you even more details. Top tidbits, wonderful whys, important indviduals, and lucrative locations. </div>
+        <br>
+        <div class="description">Below is an example of a collection within the app. Every day we deliver 6-10 of the top collections from across the web.</div>
+        <br>
+        <hr>
+        
+    <h2 class="header">1. Deteriorating Health System in the Gaza Strip</h2>
+    <p class="description">Reports on the deteriorating health system and humanitarian crisis in the Gaza Strip due to war-related damage and lack of resources.</p>
+    <h3 class="secondaryHeader">What:</h3>
+    <ul class="points-list">
+<li class="description"> WHO spokesperson warns that deaths from disease could surpass those from bombings if health system is not repaired</li><br>
+<li class="description">  Lack of access to medicine, safe water, and food reported in displaced residents of northern Gaza</li><br>
+<li class="description">  Children in Gaza hospitals suffering from war wounds and gastroenteritis from dirty water</li><br>
+<li class="description">  Israel's military accuses Hamas of violating ceasefire and transfer of hostages to other groups in Gaza</li><br>
+</ul>
+    <h3 class="secondaryHeader">Why:</h3>
+    <p class="description">The deteriorating health system and humanitarian crisis in the Gaza Strip are alarming and could lead to more deaths from disease than those caused by the ongoing bombings. The lack of access to essential resources such as medicine, water, and food is exacerbating the situation, and the continued ceasefire violations are adding to the instability in the region.</p>
+    
         </ul>
-
-        <h3 class="secondaryHeader">Why:</h3>
-        <p class="description">The meeting holds importance as it symbolizes a concerted effort to prevent further escalation of tensions and
-            find common ground between the two global powers. The outcomes of the meeting could set the tone for future
-            interactions and have significant implications for global politics and trade.</p>
-
-            <h3 class="secondaryHeader">People:</h3>
-        <ul>
-            <a href="https://en.wikipedia.org/wiki/Xi_Jinping""><li class="description">Xi Jinping</li></a>
-            <a href=" https://en.wikipedia.org/wiki/Joe_Biden""><li class="description">Joe Biden</li></a>
-        </ul>
-
         <h3 class="secondaryHeader">Locations:</h3>
-        <ul>
-            <a  href="https://en.wikipedia.org/wiki/San_Franscisco""><li class="description">San Franscisco</li></a>
-        </ul>
+        <ul><a  href="https://en.wikipedia.org/wiki/Gaza_Strip"><li class="description">Gaza Strip</li></a><a  href="https://en.wikipedia.org/wiki/Khan_Yunis"><li class="description">Khan Yunis</li></a></ul>
         <div id="map" class="map"></div>
-        
-        <script>
-            mapboxgl.accessToken = 'pk.eyJ1IjoidHlzY2h1bHR6IiwiYSI6ImNqOHlyOGM3YzJkZTEzMnA4dW41eTgzbWUifQ.AjtgwjITt6H6qJMY_38QOA';
-            var map = new mapboxgl.Map({
-            container: 'map',
-            style: 'mapbox://styles/mapbox/streets-v11',
-            center: [-122.4194, 37.7749],
-            zoom: 12
-            });
-            
-            var marker = new mapboxgl.Marker().setLngLat([-122.4194, 37.7749]).addTo(map);
-            
-        </script>
-        
+      </div>
     </div>
-  </div>
-</body>
+  </body>
 
-</html>
+  </html>
+  
